@@ -1,0 +1,53 @@
+{
+	"schemaVersion": 1,
+	"id": "leylines",
+	"version": "${version}",
+	"name": "Ley Lines",
+	"description": "A mysterious network that links the whole world together, within which flow the elements. It's said the Ley Lines remember all things that happen in this world, from the surface down to the deepest depths...",
+	"authors": [
+		"Lumi"
+	],
+	"contributors": [
+		"Prangell"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "",
+		"issues": ""
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/leylines/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.lumi.leylines.LeyLines"
+		],
+		"client": [
+			"dev.lumi.leylines.LeyLinesClient"
+		],
+		"fabric-datagen": [
+			"dev.lumi.leylines.LeyLinesDataGenerator"
+		],
+		"preLaunch": [
+			"dev.lumi.leylines.LeyLinesPreLaunchEntrypoint"
+		],
+		"cardinal-components": [
+			"dev.lumi.leylines.init.LeyLinesComponents"
+		]
+	},
+	"mixins": [
+		"leylines.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"custom": {
+		"cardinal-components": [
+			"leylines:character",
+			"leylines:party"
+		]
+	}
+}

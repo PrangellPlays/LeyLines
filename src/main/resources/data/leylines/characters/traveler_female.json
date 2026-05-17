@@ -1,0 +1,6 @@
+{
+  "id": "leylines:traveler_female",
+  "display_name": "Lumine",
+  "model": "slim",
+  "default_skin": "leylines:textures/character/traveler/lumine.png"
+}
