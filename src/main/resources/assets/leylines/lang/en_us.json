@@ -1,4 +1,10 @@
 {
+  "__Comment": "Characters",
+  "character.leylines.traveler_female": "Lumine",
+  "character.leylines.traveler_male": "Aether",
+  "character.leylines.amber": "Amber",
+  "character.leylines.kinich": "Kinich",
+
   "__Comment": "Keybinds",
   "category.leylines": "Ley Lines",
   "key.leylines.party_slot_1": "Party Slot 1",

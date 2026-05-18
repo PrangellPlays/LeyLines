@@ -52,11 +52,10 @@ public class LeylinesCharacterRegistry {
                         try (BufferedReader reader = resource.getReader()) {
                             JsonObject json = GSON.fromJson(reader, JsonObject.class);
                             Identifier characterId = Identifier.of(json.get("id").getAsString());
-                            String displayName = json.get("display_name").getAsString();
                             String model = json.get("model").getAsString();
                             Identifier skin = Identifier.of(json.get("default_skin").getAsString());
 
-                            register(new CharacterDefinition(characterId, displayName, model, skin));
+                            register(new CharacterDefinition(characterId, model, skin));
                         } catch (Exception e) {
                             e.printStackTrace();
                         }

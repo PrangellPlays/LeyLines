@@ -3,6 +3,8 @@
   "package": "dev.lumi.leylines.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "server.PlayerEntityMixin",
+    "server.ServerPlayerEntityMixin"
   ],
   "client": [
     "client.AbstractClientPlayerEntityMixin"

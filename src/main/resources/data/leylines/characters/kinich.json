@@ -1,0 +1,5 @@
+{
+  "id": "leylines:kinich",
+  "model": "slim",
+  "default_skin": "leylines:textures/character/kinich/kinich.png"
+}

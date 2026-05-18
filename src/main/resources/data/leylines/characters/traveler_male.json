@@ -1,6 +1,5 @@
 {
   "id": "leylines:traveler_male",
-  "display_name": "Aether",
   "model": "slim",
   "default_skin": "leylines:textures/character/traveler/aether.png"
 }
