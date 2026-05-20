@@ -46,8 +46,10 @@
 	},
 	"custom": {
 		"cardinal-components": [
+			"leylines:profile",
 			"leylines:character",
-			"leylines:party"
+			"leylines:party",
+			"leylines:wind_glider"
 		]
 	}
 }

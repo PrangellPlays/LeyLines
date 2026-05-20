@@ -8,7 +8,7 @@ import dev.lumi.leylines.character.LeylinesCharacterRegistry;
 import dev.lumi.leylines.command.LeylinesCharacterCommand;
 import dev.lumi.leylines.init.LeyLinesComponents;
 import dev.lumi.leylines.network.payload.PartySwapPayload;
-import dev.lumi.leylines.network.payload.StartGlidingPayload;
+import dev.lumi.leylines.network.payload.ToggleGlidingPayload;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
@@ -47,56 +47,13 @@ public class LeyLines implements ModInitializer {
 				}
 		);
 
-		PayloadTypeRegistry.playC2S().register(StartGlidingPayload.PAYLOAD_ID, StartGlidingPayload.CODEC);
-		ServerPlayNetworking.registerGlobalReceiver(
-				StartGlidingPayload.PAYLOAD_ID, (payload, context) -> {
+		PayloadTypeRegistry.playC2S().register(ToggleGlidingPayload.PAYLOAD_ID, ToggleGlidingPayload.CODEC);
+		ServerPlayNetworking.registerGlobalReceiver(ToggleGlidingPayload.PAYLOAD_ID, (payload, context) -> {
 					context.server().execute(() -> {
-						var player = context.player();
-						if (player.isOnGround()) {
-							return;
-						}
-
-						if (player.isTouchingWater()) {
-							return;
-						}
-
-						PlayerProfileComponent profileComponent = LeyLinesComponents.PROFILE.get(player);
-						if (profileComponent.getStamina() <= 0) {
-							return;
-						}
-
-						PlayerWindGliderComponent gliderComponent = LeyLinesComponents.WIND_GLIDER.get(player);
-						gliderComponent.setGliding(true);
+						LeyLinesComponents.WIND_GLIDER.get(context.player()).toggleGliding();
 					});
 				}
 		);
-
-		ServerTickEvents.END_SERVER_TICK.register(server -> {
-			for (ServerPlayerEntity player : server.getPlayerManager().getPlayerList()) {
-				PlayerWindGliderComponent gliderComponent = LeyLinesComponents.WIND_GLIDER.get(player);
-				if (gliderComponent.isGliding()) {
-					continue;
-				}
-
-				if (player.isOnGround() || player.isTouchingWater()) {
-					gliderComponent.setGliding(false);
-					continue;
-				}
-
-				PlayerProfileComponent profileComponent = LeyLinesComponents.PROFILE.get(player);
-				if (!profileComponent.consumeStamina(0.5f)) {
-					gliderComponent.setGliding(false);
-					continue;
-				}
-
-				Vec3d velocity = player.getVelocity();
-				double verticalVelocity = Math.max(velocity.y, -0.08);
-				Vec3d forwardVelocity = player.getRotationVector().multiply(0.03);
-
-				player.setVelocity(velocity.x + forwardVelocity.x, verticalVelocity, velocity.z + forwardVelocity.z);
-				player.velocityModified = true;
-			}
-		});
 	}
 
 	public static Identifier id(String path) {

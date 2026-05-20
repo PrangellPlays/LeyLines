@@ -6,10 +6,10 @@ import net.minecraft.network.codec.PacketCodec;
 import net.minecraft.network.packet.CustomPayload;
 import net.minecraft.util.Identifier;
 
-public record StartGlidingPayload() implements CustomPayload {
-    public static final Identifier ID = LeyLines.id("start_gliding");
-    public static final Id<StartGlidingPayload> PAYLOAD_ID = new Id<>(ID);
-    public static final PacketCodec<RegistryByteBuf, StartGlidingPayload> CODEC = PacketCodec.unit(new StartGlidingPayload());
+public record ToggleGlidingPayload() implements CustomPayload {
+    public static final Identifier ID = LeyLines.id("toggle_gliding");
+    public static final Id<ToggleGlidingPayload> PAYLOAD_ID = new Id<>(ID);
+    public static final PacketCodec<RegistryByteBuf, ToggleGlidingPayload> CODEC = PacketCodec.unit(new ToggleGlidingPayload());
 
     @Override
     public Id<? extends CustomPayload> getId() {

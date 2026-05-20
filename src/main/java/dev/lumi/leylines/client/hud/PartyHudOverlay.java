@@ -15,15 +15,14 @@ public class PartyHudOverlay implements HudRenderCallback {
 
     @Override
     public void onHudRender(DrawContext context, RenderTickCounter tickCounter) {
-
         MinecraftClient client = MinecraftClient.getInstance();
         if (client.player == null) return;
         PlayerPartyComponent party = LeyLinesComponents.PARTY.get(client.player);
         Identifier[] members = party.getParty();
         int active = party.getActiveSlot();
+
         int x = 10;
         int y = 10;
-
         for (int i = 0; i < 4; i++) {
             Identifier id = members[i];
             CharacterDefinition def = LeylinesCharacterRegistry.get(id);

@@ -6,8 +6,9 @@ import net.minecraft.nbt.NbtCompound;
 import net.minecraft.registry.RegistryWrapper;
 import org.ladysnake.cca.api.v3.component.Component;
 import org.ladysnake.cca.api.v3.component.sync.AutoSyncedComponent;
+import org.ladysnake.cca.api.v3.component.tick.CommonTickingComponent;
 
-public class PlayerProfileComponent implements Component, AutoSyncedComponent {
+public class PlayerProfileComponent implements AutoSyncedComponent, CommonTickingComponent {
     private final PlayerEntity player;
 
     private int adventureRank = 0;
@@ -16,9 +17,33 @@ public class PlayerProfileComponent implements Component, AutoSyncedComponent {
 
     private float maxStamina = 100f;
     private float stamina = 100f;
+    private int staminaRegenDelay = 0;
+    private static final int MAX_REGEN_DELAY = 40;
 
     public PlayerProfileComponent(PlayerEntity player) {
         this.player = player;
+    }
+
+    @Override
+    public void tick() {
+        if (staminaRegenDelay > 0) {
+            staminaRegenDelay--;
+        }
+
+        if (staminaRegenDelay > 0) {
+            return;
+        }
+
+        if (stamina >= maxStamina) {
+            return;
+        }
+
+        float regenRate = 0.35f;
+        if (player.isOnGround()) {
+            regenRate = 0.75f;
+        }
+
+        regenStamina(regenRate);
     }
 
     //Adventure Rank
@@ -105,6 +130,7 @@ public class PlayerProfileComponent implements Component, AutoSyncedComponent {
     }
 
     public boolean consumeStamina(float amount) {
+        staminaRegenDelay = MAX_REGEN_DELAY;
         if (stamina < amount) {
             return false;
         }

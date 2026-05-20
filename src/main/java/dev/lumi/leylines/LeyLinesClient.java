@@ -1,8 +1,8 @@
 package dev.lumi.leylines;
 
 import dev.lumi.leylines.client.hud.PartyHudOverlay;
+import dev.lumi.leylines.client.hud.StaminaHudOverlay;
 import dev.lumi.leylines.network.payload.PartySwapPayload;
-import dev.lumi.leylines.network.payload.StartGlidingPayload;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
@@ -17,8 +17,6 @@ public class LeyLinesClient implements ClientModInitializer {
     public static KeyBinding party_slot_2;
     public static KeyBinding party_slot_3;
     public static KeyBinding party_slot_4;
-
-    private static long lastJumpPress = 0L;
 
     @Override
     public void onInitializeClient() {
@@ -37,22 +35,7 @@ public class LeyLinesClient implements ClientModInitializer {
         });
 
         HudRenderCallback.EVENT.register(new PartyHudOverlay());
-
-        ClientTickEvents.END_CLIENT_TICK.register(client -> {
-            if (client.player == null) {
-                return;
-            }
-
-            while (client.options.jumpKey.wasPressed()) {
-                long now = System.currentTimeMillis();
-
-                if (now - lastJumpPress < 300) {
-                    ClientPlayNetworking.send(new StartGlidingPayload());
-                }
-
-                lastJumpPress = now;
-            }
-        });
+        HudRenderCallback.EVENT.register(new StaminaHudOverlay());
     }
 
     private static void swap(MinecraftClient client, int slot) {

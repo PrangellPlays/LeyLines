@@ -27,14 +27,4 @@ public abstract class PlayerEntityMixin extends LivingEntity {
         PlayerEntity self = (PlayerEntity)(Object)this;
         return CharacterText.getDecoratedName(self);
     }
-
-    @Inject(method = "handleFallDamage", at = @At("HEAD"), cancellable = true)
-    private void leylines$fallDamage(float fallDistance, float damageMultiplier, DamageSource damageSource, CallbackInfoReturnable<Boolean> cir) {
-        PlayerEntity player = (PlayerEntity)(Object) this;
-        PlayerWindGliderComponent gliderComponent = LeyLinesComponents.WIND_GLIDER.get(player);
-
-        if (gliderComponent.isGliding()) {
-            cir.setReturnValue(false );
-        }
-    }
 }

@@ -3,11 +3,13 @@
   "package": "dev.lumi.leylines.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "server.LivingEntityMixin",
     "server.PlayerEntityMixin",
     "server.ServerPlayerEntityMixin"
   ],
   "client": [
-    "client.AbstractClientPlayerEntityMixin"
+    "client.AbstractClientPlayerEntityMixin",
+    "client.MinecraftClientMixin"
   ],
   "injectors": {
     "defaultRequire": 1
