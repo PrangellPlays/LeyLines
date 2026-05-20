@@ -1,10 +1,13 @@
 package dev.lumi.leylines.mixin.server;
 
 import com.llamalad7.mixinextras.injector.ModifyReturnValue;
+import dev.lumi.leylines.cca.PlayerWindGliderComponent;
 import dev.lumi.leylines.character.CharacterText;
+import dev.lumi.leylines.init.LeyLinesComponents;
 import net.fabricmc.fabric.mixin.event.lifecycle.LivingEntityMixin;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.text.Text;
 import net.minecraft.world.World;
@@ -23,5 +26,15 @@ public abstract class PlayerEntityMixin extends LivingEntity {
     private Text leylines$displayName(Text original) {
         PlayerEntity self = (PlayerEntity)(Object)this;
         return CharacterText.getDecoratedName(self);
+    }
+
+    @Inject(method = "handleFallDamage", at = @At("HEAD"), cancellable = true)
+    private void leylines$fallDamage(float fallDistance, float damageMultiplier, DamageSource damageSource, CallbackInfoReturnable<Boolean> cir) {
+        PlayerEntity player = (PlayerEntity)(Object) this;
+        PlayerWindGliderComponent gliderComponent = LeyLinesComponents.WIND_GLIDER.get(player);
+
+        if (gliderComponent.isGliding()) {
+            cir.setReturnValue(false );
+        }
     }
 }

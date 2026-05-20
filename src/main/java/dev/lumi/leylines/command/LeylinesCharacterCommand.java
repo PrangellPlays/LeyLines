@@ -6,6 +6,7 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.context.CommandContext;
 import dev.lumi.leylines.LeyLines;
 import dev.lumi.leylines.cca.PlayerPartyComponent;
+import dev.lumi.leylines.cca.PlayerProfileComponent;
 import dev.lumi.leylines.character.CharacterDefinition;
 import dev.lumi.leylines.character.LeylinesCharacterRegistry;
 import dev.lumi.leylines.init.LeyLinesComponents;
@@ -61,43 +62,131 @@ public class LeylinesCharacterCommand {
                         .then(CommandManager.literal("set")
                                 .then(CommandManager.argument("slot", IntegerArgumentType.integer(0, 3))
                                         .then(CommandManager.argument("id", IdentifierArgumentType.identifier())
-                                                .executes(ctx -> setSlot(ctx))
+                                                .executes(ctx -> {
+                                                    ServerPlayerEntity player = ctx.getSource().getPlayer();
+                                                    int slot = IntegerArgumentType.getInteger(ctx, "slot");
+                                                    Identifier id = IdentifierArgumentType.getIdentifier(ctx, "id");
+                                                    CharacterDefinition def = LeylinesCharacterRegistry.get(id);
+
+                                                    if (def == null) {
+                                                        ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Unknown character.", 0XFF001E, TextOptions.color(Formatting.DARK_RED)), false);
+                                                        return 0;
+                                                    }
+
+                                                    PlayerPartyComponent party = LeyLinesComponents.PARTY.get(player);
+                                                    party.setSlot(slot, id);
+                                                    ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Set slot " + slot + " to " + id, 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
+                                                    return 1;
+                                                })
                                         )
                                 )
                         )
                         .then(CommandManager.literal("clear")
-                                .executes(ctx -> clearParty(ctx))
+                                .executes(ctx -> {
+                                    ServerPlayerEntity player = ctx.getSource().getPlayer();
+                                    PlayerPartyComponent party = LeyLinesComponents.PARTY.get(player);
+
+                                    for (int i = 0; i < 4; i++) {
+                                        party.setSlot(i, LeyLines.id("none"));
+                                    }
+
+                                    ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Party cleared", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
+                                    return 1;
+                                })
+                        )
+                )
+                .then(CommandManager.literal("adventurerank")
+                        .then(CommandManager.literal("rank")
+                                .then(CommandManager.literal("set")
+                                        .then(CommandManager.argument("level", IntegerArgumentType.integer(0, 60))
+                                                .executes(ctx -> {
+                                                    ServerPlayerEntity player = ctx.getSource().getPlayer();
+                                                    int adventureRank = IntegerArgumentType.getInteger(ctx, "level");
+                                                    PlayerProfileComponent profileComponent = (PlayerProfileComponent) LeyLinesComponents.PROFILE.get(player);
+
+                                                    if (profileComponent == null) {
+                                                        ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Player profile unknown.", 0XFF001E, TextOptions.color(Formatting.DARK_RED)), false);
+                                                        return 0;
+                                                    }
+
+                                                    profileComponent.setAdventureRank(adventureRank);
+                                                    PlayerProfileComponent.AdventureRankData current = PlayerProfileComponent.AdventureRankData.byRank(adventureRank);
+                                                    profileComponent.setAdventureEXP(current.getCumulativeEXP());
+                                                    ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Set Adventure Rank to " + adventureRank + "!", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
+                                                    return 1;
+                                                })
+                                        )
+                                )
+                                .then(CommandManager.literal("get")
+                                        .executes(ctx -> {
+                                            ServerPlayerEntity player = ctx.getSource().getPlayer();
+                                            PlayerProfileComponent profileComponent = (PlayerProfileComponent) LeyLinesComponents.PROFILE.get(player);
+                                            int adventureRank = profileComponent.getAdventureRank();
+
+                                            if (profileComponent == null) {
+                                                ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Player profile unknown.", 0XFF001E, TextOptions.color(Formatting.DARK_RED)), false);
+                                                return 0;
+                                            }
+
+                                            ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Players Adventure Rank is " + adventureRank + "!", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
+                                            return 1;
+                                        })
+                                )
+                        )
+                        .then(CommandManager.literal("exp")
+                                .then(CommandManager.literal("add")
+                                        .then(CommandManager.argument("exp", IntegerArgumentType.integer())
+                                                .executes(ctx -> {
+                                                    ServerPlayerEntity player = ctx.getSource().getPlayer();
+                                                    int exp = IntegerArgumentType.getInteger(ctx, "exp");
+                                                    PlayerProfileComponent profileComponent = (PlayerProfileComponent) LeyLinesComponents.PROFILE.get(player);
+
+                                                    if (profileComponent == null) {
+                                                        ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Player profile unknown.", 0XFF001E, TextOptions.color(Formatting.DARK_RED)), false);
+                                                        return 0;
+                                                    }
+
+                                                    profileComponent.addAdventureEXP(exp);
+                                                    ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Added " + exp + " Adventure EXP!", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
+                                                    return 1;
+                                                })
+                                        )
+                                )
+                                .then(CommandManager.literal("set")
+                                        .then(CommandManager.argument("exp", IntegerArgumentType.integer())
+                                                .executes(ctx -> {
+                                                    ServerPlayerEntity player = ctx.getSource().getPlayer();
+                                                    int exp = IntegerArgumentType.getInteger(ctx, "exp");
+                                                    PlayerProfileComponent profileComponent = (PlayerProfileComponent) LeyLinesComponents.PROFILE.get(player);
+
+                                                    if (profileComponent == null) {
+                                                        ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Player profile unknown.", 0XFF001E, TextOptions.color(Formatting.DARK_RED)), false);
+                                                        return 0;
+                                                    }
+
+                                                    profileComponent.setAdventureEXP(exp);
+                                                    ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Set Adventure Rank to " + exp + "!", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
+                                                    return 1;
+                                                })
+                                        )
+                                )
+                                .then(CommandManager.literal("get")
+                                        .executes(ctx -> {
+                                            ServerPlayerEntity player = ctx.getSource().getPlayer();
+                                            PlayerProfileComponent profileComponent = (PlayerProfileComponent) LeyLinesComponents.PROFILE.get(player);
+                                            int exp = profileComponent.getAdventureEXP();
+
+                                            if (profileComponent == null) {
+                                                ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Player profile unknown.", 0XFF001E, TextOptions.color(Formatting.DARK_RED)), false);
+                                                return 0;
+                                            }
+
+                                            ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Players Adventure EXP is " + exp + "!", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
+                                            return 1;
+                                        })
+                                )
                         )
                 )
         );
-    }
-
-    private static int setSlot(CommandContext<ServerCommandSource> ctx) {
-        ServerPlayerEntity player = ctx.getSource().getPlayer();
-        int slot = IntegerArgumentType.getInteger(ctx, "slot");
-        Identifier id = IdentifierArgumentType.getIdentifier(ctx, "id");
-        CharacterDefinition def = LeylinesCharacterRegistry.get(id);
-
-        if (def == null) {
-            ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Unknown character.", 0XFF001E, TextOptions.color(Formatting.DARK_RED)), false);
-            return 0;
-        }
-
-        PlayerPartyComponent party = LeyLinesComponents.PARTY.get(player);
-        party.setSlot(slot, id);
-        ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Set slot " + slot + " to " + id, 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
-        return 1;
-    }
-
-    private static int clearParty(CommandContext<ServerCommandSource> ctx) {
-        ServerPlayerEntity player = ctx.getSource().getPlayer();
-        PlayerPartyComponent party = LeyLinesComponents.PARTY.get(player);
-
-        for (int i = 0; i < 4; i++) {
-            party.setSlot(i, LeyLines.id("none"));
-        }
-
-        ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Party cleared", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
-        return 1;
     }
 }
