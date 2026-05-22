@@ -12,6 +12,7 @@ import java.io.BufferedReader;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class LeylinesCharacterRegistry {
     private static final Gson GSON = new Gson();
@@ -35,6 +36,10 @@ public class LeylinesCharacterRegistry {
 
     public static void register(CharacterDefinition definition) {
         CHARACTERS.put(definition.id(), definition);
+    }
+
+    public static Set<Identifier> ids() {
+        return CHARACTERS.keySet();
     }
 
     private static class ReloadListener implements SimpleSynchronousResourceReloadListener {

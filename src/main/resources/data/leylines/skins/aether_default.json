@@ -1,0 +1,6 @@
+{
+  "id": "leylines:aether_default",
+  "character": "leylines:traveler_male",
+  "model": "slim",
+  "texture": "leylines:textures/character/traveler/aether.png"
+}

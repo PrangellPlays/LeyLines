@@ -1,0 +1,6 @@
+{
+  "id": "leylines:venti_default",
+  "character": "leylines:venti",
+  "model": "slim",
+  "texture": "leylines:textures/character/venti/venti.png"
+}

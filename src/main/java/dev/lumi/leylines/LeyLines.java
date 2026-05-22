@@ -4,6 +4,7 @@ import dev.lumi.leylines.cca.PlayerCharacterComponent;
 import dev.lumi.leylines.cca.PlayerPartyComponent;
 import dev.lumi.leylines.cca.PlayerProfileComponent;
 import dev.lumi.leylines.cca.PlayerWindGliderComponent;
+import dev.lumi.leylines.character.LeyLinesCharacterSkinRegistry;
 import dev.lumi.leylines.character.LeylinesCharacterRegistry;
 import dev.lumi.leylines.command.LeylinesCharacterCommand;
 import dev.lumi.leylines.init.LeyLinesComponents;
@@ -28,6 +29,7 @@ public class LeyLines implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LeylinesCharacterRegistry.init();
+		LeyLinesCharacterSkinRegistry.init();
 		CommandRegistrationCallback.EVENT.register(LeylinesCharacterCommand::register);
 
 		PayloadTypeRegistry.playC2S().register(PartySwapPayload.PAYLOAD_ID, PartySwapPayload.CODEC);

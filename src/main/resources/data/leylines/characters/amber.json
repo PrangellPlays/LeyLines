@@ -1,5 +1,5 @@
 {
   "id": "leylines:amber",
   "model": "slim",
-  "default_skin": "leylines:textures/character/amber/amber.png"
+  "default_skin": "leylines:amber_default"
 }

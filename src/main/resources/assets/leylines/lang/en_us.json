@@ -4,6 +4,13 @@
   "character.leylines.traveler_male": "Aether",
   "character.leylines.amber": "Amber",
   "character.leylines.kinich": "Kinich",
+  "character.leylines.mualani": "Mualani",
+  "character.leylines.venti": "Venti",
+
+  "__Comment": "Skins",
+
+  "__Comment": "NPC Characters",
+  "character.leylines.paimon": "Paimon",
 
   "__Comment": "Keybinds",
   "category.leylines": "Ley Lines",

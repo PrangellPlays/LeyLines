@@ -1,5 +1,5 @@
 {
   "id": "leylines:traveler_female",
   "model": "slim",
-  "default_skin": "leylines:textures/character/traveler/lumine.png"
+  "default_skin": "leylines:lumine_default"
 }

@@ -1,6 +1,9 @@
 package dev.lumi.leylines.mixin.client;
 
+import dev.lumi.leylines.LeyLines;
 import dev.lumi.leylines.character.CharacterDefinition;
+import dev.lumi.leylines.character.CharacterSkinDefinition;
+import dev.lumi.leylines.character.LeyLinesCharacterSkinRegistry;
 import dev.lumi.leylines.character.LeylinesCharacterRegistry;
 import dev.lumi.leylines.init.LeyLinesComponents;
 import net.minecraft.client.network.AbstractClientPlayerEntity;
@@ -24,15 +27,27 @@ public class AbstractClientPlayerEntityMixin {
     private void leylines$getSkinTextures(CallbackInfoReturnable<SkinTextures> cir) {
         AbstractClientPlayerEntity player = (AbstractClientPlayerEntity)(Object)this;
         Identifier active = LeyLinesComponents.PARTY.get(player).getActiveCharacter();
-        //SkinTextures original = ORIGINAL_SKINS.get(player.getUuid());
-        CharacterDefinition definition = LeylinesCharacterRegistry.get(active);
+        if (active == null || active.equals(LeyLines.id("none"))) {
+            return;
+        }
 
+        CharacterDefinition definition = LeylinesCharacterRegistry.get(active);
         if (definition == null) {
             return;
         }
 
-        SkinTextures.Model model = definition.model().equals("slim") ? SkinTextures.Model.SLIM : SkinTextures.Model.WIDE;
+        Identifier equippedSkin = LeyLinesComponents.CHARACTER.get(player).getEquippedSkin(active);
+        if (equippedSkin == null) {
+            equippedSkin = definition.defaultSkin();
+        }
+
+        CharacterSkinDefinition skin = LeyLinesCharacterSkinRegistry.get(equippedSkin);
+        if (skin == null) {
+            return;
+        }
+
+        SkinTextures.Model model = skin.model().equals("slim") ? SkinTextures.Model.SLIM : SkinTextures.Model.WIDE;
         //cir.setReturnValue(new SkinTextures(definition.skin(), null, original.capeTexture(), original.elytraTexture(), model, true));
-        cir.setReturnValue(new SkinTextures(definition.skin(), null, null, null, model, true));
+        cir.setReturnValue(new SkinTextures(skin.texture(), null, null, null, model, true));
     }
 }

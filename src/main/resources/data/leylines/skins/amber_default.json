@@ -1,0 +1,6 @@
+{
+  "id": "leylines:amber_default",
+  "character": "leylines:amber",
+  "model": "slim",
+  "texture": "leylines:textures/character/amber/amber.png"
+}

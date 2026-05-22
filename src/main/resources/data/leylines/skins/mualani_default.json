@@ -1,0 +1,6 @@
+{
+  "id": "leylines:mualani_default",
+  "character": "leylines:mualani",
+  "model": "slim",
+  "texture": "leylines:textures/character/mualani/mualani.png"
+}
