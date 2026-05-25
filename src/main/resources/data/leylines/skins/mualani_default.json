@@ -1,6 +1,17 @@
 {
   "id": "leylines:mualani_default",
   "character": "leylines:mualani",
-  "model": "slim",
-  "texture": "leylines:textures/character/mualani/mualani.png"
+
+  "vanilla": {
+    "texture": "leylines:textures/character/mualani/mualani.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
 }

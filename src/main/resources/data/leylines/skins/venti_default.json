@@ -1,6 +1,17 @@
 {
   "id": "leylines:venti_default",
   "character": "leylines:venti",
-  "model": "slim",
-  "texture": "leylines:textures/character/venti/venti.png"
+
+  "vanilla": {
+    "texture": "leylines:textures/character/venti/venti.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
 }

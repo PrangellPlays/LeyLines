@@ -1,6 +1,17 @@
 {
   "id": "leylines:lumine_default",
   "character": "leylines:traveler_female",
-  "model": "slim",
-  "texture": "leylines:textures/character/traveler/lumine.png"
+
+  "vanilla": {
+    "texture": "leylines:textures/character/traveler/lumine.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
 }

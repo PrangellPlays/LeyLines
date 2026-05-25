@@ -1,6 +1,17 @@
 {
   "id": "leylines:amber_default",
   "character": "leylines:amber",
-  "model": "slim",
-  "texture": "leylines:textures/character/amber/amber.png"
+
+  "vanilla": {
+    "texture": "leylines:textures/character/amber/amber.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
 }

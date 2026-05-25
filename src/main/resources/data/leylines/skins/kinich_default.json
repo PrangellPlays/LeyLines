@@ -1,6 +1,17 @@
 {
   "id": "leylines:kinich_default",
   "character": "leylines:kinich",
-  "model": "slim",
-  "texture": "leylines:textures/character/kinich/kinich.png"
+
+  "vanilla": {
+    "texture": "leylines:textures/character/kinich/kinich.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
 }

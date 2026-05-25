@@ -46,8 +46,7 @@ public class AbstractClientPlayerEntityMixin {
             return;
         }
 
-        SkinTextures.Model model = skin.model().equals("slim") ? SkinTextures.Model.SLIM : SkinTextures.Model.WIDE;
-        //cir.setReturnValue(new SkinTextures(definition.skin(), null, original.capeTexture(), original.elytraTexture(), model, true));
-        cir.setReturnValue(new SkinTextures(skin.texture(), null, null, null, model, true));
+        SkinTextures.Model model = skin.vanilla().model().equals("slim") ? SkinTextures.Model.SLIM : SkinTextures.Model.WIDE;
+        cir.setReturnValue(new SkinTextures(skin.vanilla().texture(), null, null, null, model, true));
     }
 }

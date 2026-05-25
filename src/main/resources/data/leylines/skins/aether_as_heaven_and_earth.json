@@ -1,9 +1,9 @@
 {
-  "id": "leylines:aether_default",
+  "id": "leylines:aether_as_heaven_and_earth",
   "character": "leylines:traveler_male",
 
   "vanilla": {
-    "texture": "leylines:textures/character/traveler/aether.png",
+    "texture": "leylines:textures/character/traveler/skins/traveler_male/aether_as_heaven_and_earth.png",
     "model": "slim"
   },
 

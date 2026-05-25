@@ -51,14 +51,38 @@ public class LeyLinesCharacterSkinRegistry {
                     JsonObject json = GSON.fromJson(reader, JsonObject.class);
                     Identifier skinId = Identifier.of(json.get("id").getAsString());
                     Identifier character = Identifier.of(json.get("character").getAsString());
-                    Identifier texture = Identifier.of(json.get("texture").getAsString());
-                    String model = json.get("model").getAsString();
 
-                    register(new CharacterSkinDefinition(skinId, character, texture, model));
+                    JsonObject vanillaJson = json.getAsJsonObject("vanilla");
+                    Identifier vanillaTexture = Identifier.of(vanillaJson.get("texture").getAsString());
+                    String vanillaModel = vanillaJson.get("model").getAsString();
+                    CharacterSkinDefinition.VanillaVisualData vanilla = new CharacterSkinDefinition.VanillaVisualData(vanillaTexture, vanillaModel);
+
+                    JsonObject geckoJson = json.getAsJsonObject("gecko");
+                    boolean useGeckoModel = geckoJson.get("useGeckoModel").getAsBoolean();
+                    Identifier geoTexture = Identifier.of(geckoJson.get("texture").getAsString());
+                    Identifier geoGlowTexture = Identifier.of(geckoJson.get("glow_texture").getAsString());
+                    Identifier geoModel = Identifier.of(geckoJson.get("model").getAsString());
+                    Identifier geoAnimation = Identifier.of(geckoJson.get("animation").getAsString());
+                    CharacterSkinDefinition.GeckoVisualData gecko = new CharacterSkinDefinition.GeckoVisualData(useGeckoModel, geoTexture, geoGlowTexture, geoModel, geoAnimation);
+
+                    register(new CharacterSkinDefinition(skinId, character, vanilla, gecko));
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
             });
+        }
+
+        private static Identifier optionalIdentifier(JsonObject json, String key) {
+            if (!json.has(key)) {
+                return null;
+            }
+
+            String value = json.get(key).getAsString();
+            if (value.isBlank()) {
+                return null;
+            }
+
+            return Identifier.of(value);
         }
     }
 }
