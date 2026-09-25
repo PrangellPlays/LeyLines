@@ -1,0 +1,17 @@
+{
+  "id": "leylines:xianyun_a_guests_august_omen",
+  "character": "leylines:xianyun",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/xianyun/skins/xianyun_a_guests_august_omen.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "leylines:wriothesley_nights_chilling_howl",
+  "character": "leylines:wriothesley",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/wriothesley/skins/wriothesley_nights_chilling_howl.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

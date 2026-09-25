@@ -1,0 +1,17 @@
+{
+  "id": "leylines:skirk_shattered_star",
+  "character": "leylines:skirk",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/skirk/skins/skirk_shattered_star.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

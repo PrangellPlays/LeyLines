@@ -1,0 +1,17 @@
+{
+  "id": "leylines:faruzan_pristine_elegance",
+  "character": "leylines:faruzan",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/faruzan/skins/faruzan_pristine_elegance.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

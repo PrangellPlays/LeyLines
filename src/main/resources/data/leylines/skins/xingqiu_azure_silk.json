@@ -1,0 +1,17 @@
+{
+  "id": "leylines:xingqiu_azure_silk",
+  "character": "leylines:xingqiu",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/xingqiu/skins/xingqiu_azure_silk.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

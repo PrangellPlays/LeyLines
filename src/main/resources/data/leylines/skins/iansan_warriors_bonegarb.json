@@ -1,0 +1,17 @@
+{
+  "id": "leylines:iansan_warriors_bonegarb",
+  "character": "leylines:iansan",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/iansan/skins/iansan_warriors_bonegarb.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

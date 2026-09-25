@@ -15,8 +15,16 @@ public class TextOptions {
         return Text.literal(text).setStyle(Style.EMPTY.withColor(color));
     }
 
+    public static MutableText withColor(Text text, int color) {
+        return text.copy().setStyle(Style.EMPTY.withColor(color));
+    }
+
     public static MutableText translateWithColor(String text, int color) {
         return Text.translatable(text).setStyle(Style.EMPTY.withColor(color));
+    }
+
+    public static MutableText appendColored(MutableText base, Text text, int color) {
+        return base.append(withColor(text, color));
     }
 
     public static MutableText withFormatting(String text, Formatting... formatting) {

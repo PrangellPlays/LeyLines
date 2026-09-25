@@ -1,10 +1,9 @@
 package dev.lumi.leylines.cca;
 
-import dev.lumi.leylines.init.LeyLinesComponents;
+import dev.lumi.leylines.index.LeyLinesComponents;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.registry.RegistryWrapper;
-import org.ladysnake.cca.api.v3.component.Component;
 import org.ladysnake.cca.api.v3.component.sync.AutoSyncedComponent;
 import org.ladysnake.cca.api.v3.component.tick.CommonTickingComponent;
 

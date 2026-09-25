@@ -1,6 +1,6 @@
 package dev.lumi.leylines.mixin.server;
 
-import dev.lumi.leylines.init.LeyLinesComponents;
+import dev.lumi.leylines.index.LeyLinesComponents;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;

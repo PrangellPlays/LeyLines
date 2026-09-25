@@ -1,0 +1,17 @@
+{
+  "id": "leylines:ningguang_orchids_evening_gown",
+  "character": "leylines:ningguang",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/ningguang/skins/ningguang_orchids_evening_gown.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

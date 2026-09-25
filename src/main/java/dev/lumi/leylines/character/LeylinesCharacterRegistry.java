@@ -60,7 +60,15 @@ public class LeylinesCharacterRegistry {
                             String model = json.get("model").getAsString();
                             Identifier skin = Identifier.of(json.get("default_skin").getAsString());
 
-                            register(new CharacterDefinition(characterId, model, skin));
+                            JsonObject characterDataJson = json.getAsJsonObject("character_data");
+                            Integer starCount = characterDataJson.get("starCount").getAsInt();
+                            Identifier element = Identifier.of(characterDataJson.get("element").getAsString());
+                            Identifier weapon = Identifier.of(characterDataJson.get("weapon").getAsString());
+                            Identifier region = Identifier.of(characterDataJson.get("region").getAsString());
+                            Identifier modelType = Identifier.of(characterDataJson.get("modelType").getAsString());
+                            CharacterDefinition.CharacterData characterData = new CharacterDefinition.CharacterData(starCount, element, weapon, region, modelType);
+
+                            register(new CharacterDefinition(characterId, model, skin, characterData));
                         } catch (Exception e) {
                             e.printStackTrace();
                         }

@@ -1,0 +1,17 @@
+{
+  "id": "leylines:kaeya_sailwind_shadow",
+  "character": "leylines:kaeya",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/kaeya/skins/kaeya_sailwind_shadow.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

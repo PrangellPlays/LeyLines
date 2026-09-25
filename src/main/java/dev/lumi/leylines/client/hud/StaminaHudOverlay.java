@@ -1,7 +1,7 @@
 package dev.lumi.leylines.client.hud;
 
 import dev.lumi.leylines.LeyLines;
-import dev.lumi.leylines.init.LeyLinesComponents;
+import dev.lumi.leylines.index.LeyLinesComponents;
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawContext;

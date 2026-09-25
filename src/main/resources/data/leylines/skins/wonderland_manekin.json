@@ -1,0 +1,17 @@
+{
+  "id": "leylines:wonderland_manekin",
+  "character": "leylines:wonderland_manekin_male",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/wonderland_manekin/skins/wonderland_manekin_male.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

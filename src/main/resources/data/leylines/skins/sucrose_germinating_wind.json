@@ -1,0 +1,17 @@
+{
+  "id": "leylines:sucrose_germinating_wind",
+  "character": "leylines:sucrose",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/sucrose/skins/sucrose_germinating_wind.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

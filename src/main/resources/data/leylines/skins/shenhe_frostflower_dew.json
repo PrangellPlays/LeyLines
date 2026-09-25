@@ -1,0 +1,17 @@
+{
+  "id": "leylines:shenhe_frostflower_dew",
+  "character": "leylines:shenhe",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/shenhe/skins/shenhe_frostflower_dew.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

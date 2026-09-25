@@ -1,0 +1,17 @@
+{
+  "id": "leylines:freminet_ice_skin",
+  "character": "leylines:freminet",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/freminet/skins/freminet_ice_skin.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

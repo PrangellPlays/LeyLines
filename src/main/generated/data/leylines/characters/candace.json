@@ -1,0 +1,12 @@
+{
+  "character_data": {
+    "element": "leylines:element.leylines.hydro",
+    "modelType": "leylines:model_type.leylines.tall_female",
+    "region": "leylines:region.leylines.sumeru",
+    "starCount": 4,
+    "weapon": "leylines:weapon_type.leylines.polearm"
+  },
+  "default_skin": "leylines:candace_desert_and_night",
+  "id": "leylines:candace",
+  "model": "slim"
+}

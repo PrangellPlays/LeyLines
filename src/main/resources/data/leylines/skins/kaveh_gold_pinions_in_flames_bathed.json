@@ -1,0 +1,17 @@
+{
+  "id": "leylines:kaveh_gold_pinions_in_flames_bathed",
+  "character": "leylines:kaveh",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/kaveh/skins/kaveh_gold_pinions_in_flames_bathed.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

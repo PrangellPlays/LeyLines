@@ -1,0 +1,17 @@
+{
+  "id": "leylines:amber_5_star_outrider",
+  "character": "leylines:amber",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/amber/skins/amber_5_star_outrider.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

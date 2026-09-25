@@ -1,0 +1,17 @@
+{
+  "id": "leylines:diluc_darknight_blaze",
+  "character": "leylines:diluc",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/diluc/skins/diluc_darknight_blaze.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

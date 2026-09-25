@@ -1,0 +1,17 @@
+{
+  "id": "leylines:illuga_steadfast_resolve",
+  "character": "leylines:illuga",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/illuga/skins/illuga_steadfast_resolve.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "leylines:escoffier_sorbet_honey_pie",
+  "character": "leylines:escoffier",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/escoffier/skins/escoffier_sorbet_honey_pie.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

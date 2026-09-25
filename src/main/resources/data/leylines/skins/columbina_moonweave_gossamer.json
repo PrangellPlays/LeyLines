@@ -1,0 +1,17 @@
+{
+  "id": "leylines:columbina_moonweave_gossamer",
+  "character": "leylines:columbina",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/columbina/skins/columbina_moonweave_gossamer.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

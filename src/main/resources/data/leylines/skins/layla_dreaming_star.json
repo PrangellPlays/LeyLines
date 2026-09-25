@@ -1,0 +1,17 @@
+{
+  "id": "leylines:layla_dreaming_star",
+  "character": "leylines:layla",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/layla/skins/layla_dreaming_star.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

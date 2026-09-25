@@ -1,0 +1,17 @@
+{
+  "id": "leylines:lisa_a_sobriquet_under_shade",
+  "character": "leylines:lisa",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/lisa/skins/lisa_a_sobriquet_under_shade.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "leylines:alhaitham_the_rational",
+  "character": "leylines:alhaitham",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/alhaitham/skins/alhaitham_the_rational.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

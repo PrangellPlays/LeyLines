@@ -1,0 +1,17 @@
+{
+  "id": "leylines:gaming_ranging_rainbow",
+  "character": "leylines:gaming",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/gaming/skins/gaming_ranging_rainbow.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

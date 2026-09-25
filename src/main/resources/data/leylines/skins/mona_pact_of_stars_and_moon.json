@@ -1,0 +1,17 @@
+{
+  "id": "leylines:mona_pact_of_stars_and_moon",
+  "character": "leylines:mona",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/mona/skins/mona_pact_of_stars_and_moon.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

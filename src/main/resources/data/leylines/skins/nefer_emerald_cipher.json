@@ -1,0 +1,17 @@
+{
+  "id": "leylines:nefer_emerald_cipher",
+  "character": "leylines:nefer",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/nefer/skins/nefer_emerald_cipher.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

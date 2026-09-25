@@ -1,0 +1,12 @@
+{
+  "character_data": {
+    "element": "leylines:element.leylines.cryo",
+    "modelType": "leylines:model_type.leylines.medium_female",
+    "region": "leylines:region.leylines.snezhnaya",
+    "starCount": 5,
+    "weapon": "leylines:weapon_type.leylines.sword"
+  },
+  "default_skin": "leylines:odette_snow_swans_dance",
+  "id": "leylines:odette",
+  "model": "slim"
+}

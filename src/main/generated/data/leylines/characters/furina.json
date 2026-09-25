@@ -1,0 +1,12 @@
+{
+  "character_data": {
+    "element": "leylines:element.leylines.hydro",
+    "modelType": "leylines:model_type.leylines.medium_female",
+    "region": "leylines:region.leylines.fontaine",
+    "starCount": 5,
+    "weapon": "leylines:weapon_type.leylines.sword"
+  },
+  "default_skin": "leylines:furina_coronated_prima_donna",
+  "id": "leylines:furina",
+  "model": "slim"
+}

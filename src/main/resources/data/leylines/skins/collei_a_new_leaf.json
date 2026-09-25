@@ -1,0 +1,17 @@
+{
+  "id": "leylines:collei_a_new_leaf",
+  "character": "leylines:collei",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/collei/skins/collei_a_new_leaf.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

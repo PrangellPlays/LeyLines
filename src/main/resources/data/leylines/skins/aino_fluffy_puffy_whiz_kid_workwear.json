@@ -1,0 +1,17 @@
+{
+  "id": "leylines:aino_fluffy_puffy_whiz_kid_workwear",
+  "character": "leylines:aino",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/aino/skins/aino_fluffy_puffy_whiz_kid_workwear.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

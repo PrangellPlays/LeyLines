@@ -1,0 +1,17 @@
+{
+  "id": "leylines:xiangling_red_pepper_and_tumeric",
+  "character": "leylines:xiangling",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/xiangling/skins/xiangling_red_pepper_and_tumeric.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

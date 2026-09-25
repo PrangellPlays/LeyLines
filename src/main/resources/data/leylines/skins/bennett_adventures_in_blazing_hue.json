@@ -1,0 +1,17 @@
+{
+  "id": "leylines:bennett_adventures_in_blazing_hue",
+  "character": "leylines:bennett",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/bennett/skins/bennett_adventures_in_blazing_hue.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

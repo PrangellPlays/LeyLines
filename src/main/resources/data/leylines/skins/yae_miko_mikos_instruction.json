@@ -1,0 +1,17 @@
+{
+  "id": "leylines:yae_miko_mikos_instruction",
+  "character": "leylines:yae_miko",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/yae_miko/skins/yae_miko_mikos_instruction.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

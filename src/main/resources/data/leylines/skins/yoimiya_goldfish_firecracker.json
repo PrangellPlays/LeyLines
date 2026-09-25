@@ -1,0 +1,17 @@
+{
+  "id": "leylines:yoimiya_goldfish_firecracker",
+  "character": "leylines:yoimiya",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/yoimiya/skins/yoimiya_goldfish_firecracker.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "character_data": {
+    "element": "leylines:element.leylines.cryo",
+    "modelType": "leylines:model_type.leylines.medium_female",
+    "region": "leylines:region.leylines.natlan",
+    "starCount": 5,
+    "weapon": "leylines:weapon_type.leylines.catalyst"
+  },
+  "default_skin": "leylines:citlali_dawnseer",
+  "id": "leylines:citlali",
+  "model": "slim"
+}

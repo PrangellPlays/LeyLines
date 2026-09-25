@@ -1,0 +1,17 @@
+{
+  "id": "leylines:barbara_summertime_sparkle",
+  "character": "leylines:barbara",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/barbara/skins/barbara_summertime_sparkle.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

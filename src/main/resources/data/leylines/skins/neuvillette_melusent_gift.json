@@ -1,0 +1,17 @@
+{
+  "id": "leylines:neuvillette_melusent_gift",
+  "character": "leylines:neuvillette",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/neuvillette/skins/neuvillette_melusent_gift.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

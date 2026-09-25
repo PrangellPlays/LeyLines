@@ -1,0 +1,15 @@
+{
+  "character": "leylines:traveler_male",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:aether_as_heaven_and_earth",
+  "vanilla": {
+    "model": "slim",
+    "texture": "leylines:textures/character/traveler/skins/traveler_male/aether_as_heaven_and_earth.png"
+  }
+}

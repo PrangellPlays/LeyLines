@@ -1,0 +1,17 @@
+{
+  "id": "leylines:ineffa_mechanical_dreams",
+  "character": "leylines:ineffa",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/ineffa/skins/ineffa_mechanical_dreams.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

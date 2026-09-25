@@ -1,0 +1,17 @@
+{
+  "id": "leylines:xinyan_ardent_soul",
+  "character": "leylines:xinyan",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/xinyan/skins/xinyan_ardent_soul.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

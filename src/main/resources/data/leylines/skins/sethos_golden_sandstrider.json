@@ -1,0 +1,17 @@
+{
+  "id": "leylines:sethos_golden_sandstrider",
+  "character": "leylines:sethos",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/sethos/skins/sethos_golden_sandstrider.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

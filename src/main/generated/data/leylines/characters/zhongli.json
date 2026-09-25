@@ -1,0 +1,12 @@
+{
+  "character_data": {
+    "element": "leylines:element.leylines.geo",
+    "modelType": "leylines:model_type.leylines.tall_male",
+    "region": "leylines:region.leylines.liyue",
+    "starCount": 5,
+    "weapon": "leylines:weapon_type.leylines.polearm"
+  },
+  "default_skin": "leylines:zhongli_hermit_of_mortal_life",
+  "id": "leylines:zhongli",
+  "model": "slim"
+}

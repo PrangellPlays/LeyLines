@@ -1,0 +1,17 @@
+{
+  "id": "leylines:jean_favonian_devotion",
+  "character": "leylines:jean",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/jean/skins/jean_favonian_devotion.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

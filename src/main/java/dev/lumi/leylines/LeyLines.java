@@ -2,23 +2,18 @@ package dev.lumi.leylines;
 
 import dev.lumi.leylines.cca.PlayerCharacterComponent;
 import dev.lumi.leylines.cca.PlayerPartyComponent;
-import dev.lumi.leylines.cca.PlayerProfileComponent;
-import dev.lumi.leylines.cca.PlayerWindGliderComponent;
 import dev.lumi.leylines.character.LeyLinesCharacterSkinRegistry;
 import dev.lumi.leylines.character.LeylinesCharacterRegistry;
 import dev.lumi.leylines.command.LeylinesCharacterCommand;
-import dev.lumi.leylines.init.LeyLinesComponents;
+import dev.lumi.leylines.index.*;
 import dev.lumi.leylines.network.payload.PartySwapPayload;
 import dev.lumi.leylines.network.payload.ToggleGlidingPayload;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
-import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
-import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.math.Vec3d;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -56,6 +51,11 @@ public class LeyLines implements ModInitializer {
 					});
 				}
 		);
+
+		LeyLinesBlocks.init();
+		LeyLinesBlockEntities.init();
+		LeyLinesItems.init();
+		LeyLinesItemGroups.init();
 	}
 
 	public static Identifier id(String path) {

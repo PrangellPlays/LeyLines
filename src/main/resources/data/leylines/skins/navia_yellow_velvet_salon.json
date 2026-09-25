@@ -1,0 +1,17 @@
+{
+  "id": "leylines:navia_yellow_velvet_salon",
+  "character": "leylines:navia",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/navia/skins/navia_yellow_velvet_salon.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

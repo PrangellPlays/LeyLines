@@ -1,0 +1,17 @@
+{
+  "id": "leylines:diona_sugary_brew",
+  "character": "leylines:diona",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/diona/skins/diona_sugary_brew.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

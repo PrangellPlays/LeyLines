@@ -1,0 +1,17 @@
+{
+  "id": "leylines:nahida_for_all_knowledge_a_verse",
+  "character": "leylines:nahida",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/nahida/skins/nahida_for_all_knowledge_a_verse.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

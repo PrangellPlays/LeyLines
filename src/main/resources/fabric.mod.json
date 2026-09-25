@@ -32,7 +32,7 @@
 			"dev.lumi.leylines.LeyLinesPreLaunchEntrypoint"
 		],
 		"cardinal-components": [
-			"dev.lumi.leylines.init.LeyLinesComponents"
+			"dev.lumi.leylines.index.LeyLinesComponents"
 		]
 	},
 	"mixins": [

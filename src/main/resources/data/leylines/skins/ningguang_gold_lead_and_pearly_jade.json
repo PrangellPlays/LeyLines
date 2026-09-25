@@ -1,0 +1,17 @@
+{
+  "id": "leylines:ningguang_gold_lead_and_pearly_jade",
+  "character": "leylines:ningguang",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/ningguang/skins/ningguang_gold_lead_and_pearly_jade.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

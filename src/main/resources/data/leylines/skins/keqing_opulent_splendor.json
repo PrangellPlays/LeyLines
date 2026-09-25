@@ -1,0 +1,17 @@
+{
+  "id": "leylines:keqing_opulent_splendor",
+  "character": "leylines:keqing",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/keqing/skins/keqing_opulent_splendor.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

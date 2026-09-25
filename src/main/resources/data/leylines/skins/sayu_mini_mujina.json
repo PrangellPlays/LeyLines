@@ -1,0 +1,17 @@
+{
+  "id": "leylines:sayu_mini_mujina",
+  "character": "leylines:sayu",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/sayu/skins/sayu_mini_mujina.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

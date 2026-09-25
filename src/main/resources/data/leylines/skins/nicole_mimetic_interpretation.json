@@ -1,0 +1,17 @@
+{
+  "id": "leylines:nicole_mimetic_interpretation",
+  "character": "leylines:nicole",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/nicole/skins/nicole_mimetic_interpretation.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "leylines:nilou_neither_flower_nor_mist",
+  "character": "leylines:nilou",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/nilou/skins/nilou_neither_flower_nor_mist.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "leylines:yaoyao_rainlit_bamboo_reverie",
+  "character": "leylines:yaoyao",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/yaoyao/skins/yaoyao_rainlit_bamboo_reverie.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

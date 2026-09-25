@@ -1,0 +1,17 @@
+{
+  "id": "leylines:dori_i_love_mora",
+  "character": "leylines:dori",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/dori/skins/dori_i_love_mora.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

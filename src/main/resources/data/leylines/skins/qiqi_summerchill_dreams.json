@@ -1,0 +1,17 @@
+{
+  "id": "leylines:qiqi_summerchill_dreams",
+  "character": "leylines:qiqi",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/qiqi/skins/qiqi_summerchill_dreams.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

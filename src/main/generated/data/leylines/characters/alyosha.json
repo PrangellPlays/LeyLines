@@ -1,0 +1,12 @@
+{
+  "character_data": {
+    "element": "leylines:element.leylines.electro",
+    "modelType": "leylines:model_type.leylines.medium_male",
+    "region": "leylines:region.leylines.snezhnaya",
+    "starCount": 4,
+    "weapon": "leylines:weapon_type.leylines.polearm"
+  },
+  "default_skin": "leylines:alyosha_frost_cloaked_ambusher",
+  "id": "leylines:alyosha",
+  "model": "slim"
+}

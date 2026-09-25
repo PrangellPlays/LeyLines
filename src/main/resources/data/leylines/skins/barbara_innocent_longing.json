@@ -1,0 +1,17 @@
+{
+  "id": "leylines:barbara_innocent_longing",
+  "character": "leylines:barbara",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/barbara/skins/barbara_innocent_longing.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

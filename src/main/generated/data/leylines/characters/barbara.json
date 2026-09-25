@@ -1,0 +1,12 @@
+{
+  "character_data": {
+    "element": "leylines:element.leylines.hydro",
+    "modelType": "leylines:model_type.leylines.medium_female",
+    "region": "leylines:region.leylines.mondstadt",
+    "starCount": 4,
+    "weapon": "leylines:weapon_type.leylines.catalyst"
+  },
+  "default_skin": "leylines:barbara_innocent_longing",
+  "id": "leylines:barbara",
+  "model": "slim"
+}

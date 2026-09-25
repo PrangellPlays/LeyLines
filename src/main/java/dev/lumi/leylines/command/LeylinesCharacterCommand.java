@@ -2,7 +2,6 @@ package dev.lumi.leylines.command;
 
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.IntegerArgumentType;
-import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.suggestion.Suggestions;
 import com.mojang.brigadier.suggestion.SuggestionsBuilder;
@@ -10,11 +9,12 @@ import dev.lumi.leylines.LeyLines;
 import dev.lumi.leylines.cca.PlayerCharacterComponent;
 import dev.lumi.leylines.cca.PlayerPartyComponent;
 import dev.lumi.leylines.cca.PlayerProfileComponent;
+import dev.lumi.leylines.cca.PlayerWindGliderComponent;
 import dev.lumi.leylines.character.CharacterDefinition;
 import dev.lumi.leylines.character.CharacterSkinDefinition;
 import dev.lumi.leylines.character.LeyLinesCharacterSkinRegistry;
 import dev.lumi.leylines.character.LeylinesCharacterRegistry;
-import dev.lumi.leylines.init.LeyLinesComponents;
+import dev.lumi.leylines.index.LeyLinesComponents;
 import dev.lumi.leylines.util.TextOptions;
 import net.minecraft.command.CommandRegistryAccess;
 import net.minecraft.command.CommandSource;
@@ -22,7 +22,6 @@ import net.minecraft.command.argument.IdentifierArgumentType;
 import net.minecraft.server.command.CommandManager;
 import net.minecraft.server.command.ServerCommandSource;
 import net.minecraft.server.network.ServerPlayerEntity;
-import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
 
@@ -43,15 +42,19 @@ public class LeylinesCharacterCommand {
                                         .executes(ctx -> {
                                             ServerPlayerEntity player = ctx.getSource().getPlayer();
                                             Identifier id = IdentifierArgumentType.getIdentifier(ctx, "id");
+                                            assert player != null;
+                                            PlayerCharacterComponent characterComponent = LeyLinesComponents.CHARACTER.get(player);
 
                                             if (LeylinesCharacterRegistry.get(id) == null) {
                                                 ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Unknown character.", 0XFF001E, TextOptions.color(Formatting.DARK_RED)), false);
                                                 return 0;
                                             }
 
-                                            assert player != null;
-                                            LeyLinesComponents.CHARACTER.get(player).setActiveCharacter(id);
-                                            ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Swapped character to '" + id + "'", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
+                                            characterComponent.setActiveCharacter(id);
+                                            CharacterDefinition characterId = LeylinesCharacterRegistry.get(id);
+                                            //ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Swapped character to '" + id + "'", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
+                                            LeyLinesComponents.CHARACTER.sync(player);
+                                            ctx.getSource().sendFeedback(() -> TextOptions.appendColored(TextOptions.withColor("Ley Lines §> Swapped character to '", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), characterId.displayName(), TextOptions.color(Formatting.AQUA)).append(TextOptions.withColor("'", TextOptions.color(Formatting.GRAY))), false);
                                             return 1;
                                         })
                                 )
@@ -62,6 +65,7 @@ public class LeylinesCharacterCommand {
 
                                     assert player != null;
                                     LeyLinesComponents.CHARACTER.get(player).setActiveCharacter(LeyLines.id("none"));
+                                    LeyLinesComponents.CHARACTER.sync(player);
                                     ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Cleared active character", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
                                     return 1;
                                 })
@@ -95,7 +99,8 @@ public class LeylinesCharacterCommand {
                                             }
 
                                             characterComponent.setEquippedSkin(activeCharacter, skinId);
-                                            ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Equipped skin '" + skinId + "'", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
+                                            LeyLinesComponents.CHARACTER.sync(player);
+                                            ctx.getSource().sendFeedback(() -> TextOptions.appendColored(TextOptions.withColor("Ley Lines §> Equipped skin '", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), skin.displayName(), TextOptions.color(Formatting.AQUA)).append(TextOptions.withColor("'", TextOptions.color(Formatting.GRAY))), false);
                                             return 1;
                                         })
                                 )
@@ -119,7 +124,9 @@ public class LeylinesCharacterCommand {
 
                                                     PlayerPartyComponent party = LeyLinesComponents.PARTY.get(player);
                                                     party.setSlot(slot, id);
-                                                    ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Set slot " + slot + " to " + id, 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
+                                                    //ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Set slot " + slot + " to " + id, 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
+                                                    LeyLinesComponents.PARTY.sync(player);
+                                                    ctx.getSource().sendFeedback(() -> TextOptions.appendColored(TextOptions.withColor("Ley Lines §> Set slot " + slot + " to '", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), def.displayName(), TextOptions.color(Formatting.AQUA)).append(TextOptions.withColor("'", TextOptions.color(Formatting.GRAY))), false);
                                                     return 1;
                                                 })
                                         )
@@ -156,6 +163,7 @@ public class LeylinesCharacterCommand {
                                                     profileComponent.setAdventureRank(adventureRank);
                                                     PlayerProfileComponent.AdventureRankData current = PlayerProfileComponent.AdventureRankData.byRank(adventureRank);
                                                     profileComponent.setAdventureEXP(current.getCumulativeEXP());
+                                                    LeyLinesComponents.PROFILE.sync(player);
                                                     ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Set Adventure Rank to " + adventureRank + "!", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
                                                     return 1;
                                                 })
@@ -172,6 +180,7 @@ public class LeylinesCharacterCommand {
                                                 return 0;
                                             }
 
+                                            LeyLinesComponents.PROFILE.sync(player);
                                             ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Players Adventure Rank is " + adventureRank + "!", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
                                             return 1;
                                         })
@@ -191,6 +200,7 @@ public class LeylinesCharacterCommand {
                                                     }
 
                                                     profileComponent.addAdventureEXP(exp);
+                                                    LeyLinesComponents.PROFILE.sync(player);
                                                     ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Added " + exp + " Adventure EXP!", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
                                                     return 1;
                                                 })
@@ -209,6 +219,7 @@ public class LeylinesCharacterCommand {
                                                     }
 
                                                     profileComponent.setAdventureEXP(exp);
+                                                    LeyLinesComponents.PROFILE.sync(player);
                                                     ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Set Adventure Rank to " + exp + "!", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
                                                     return 1;
                                                 })
@@ -225,10 +236,35 @@ public class LeylinesCharacterCommand {
                                                 return 0;
                                             }
 
+                                            LeyLinesComponents.PROFILE.sync(player);
                                             ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Players Adventure EXP is " + exp + "!", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
                                             return 1;
                                         })
                                 )
+                        )
+                )
+                .then(CommandManager.literal("gliding")
+                        .then(CommandManager.literal("enable")
+                                .executes(ctx -> {
+                                    ServerPlayerEntity player = ctx.getSource().getPlayer();
+                                    PlayerWindGliderComponent windGliderComponent = (PlayerWindGliderComponent) LeyLinesComponents.WIND_GLIDER.get(player);
+
+                                    windGliderComponent.setWindGliderState(true);
+                                    LeyLinesComponents.WIND_GLIDER.sync(player);
+                                    ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Enabled Wind Glider!", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
+                                    return 1;
+                                })
+                        )
+                        .then(CommandManager.literal("disable")
+                                .executes(ctx -> {
+                                    ServerPlayerEntity player = ctx.getSource().getPlayer();
+                                    PlayerWindGliderComponent windGliderComponent = (PlayerWindGliderComponent) LeyLinesComponents.WIND_GLIDER.get(player);
+
+                                    windGliderComponent.setWindGliderState(false);
+                                    LeyLinesComponents.WIND_GLIDER.sync(player);
+                                    ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Disabled Wind Glider!", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
+                                    return 1;
+                                })
                         )
                 )
         );

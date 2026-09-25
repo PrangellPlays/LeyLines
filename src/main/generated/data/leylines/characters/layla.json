@@ -1,0 +1,12 @@
+{
+  "character_data": {
+    "element": "leylines:element.leylines.cryo",
+    "modelType": "leylines:model_type.leylines.medium_female",
+    "region": "leylines:region.leylines.sumeru",
+    "starCount": 4,
+    "weapon": "leylines:weapon_type.leylines.sword"
+  },
+  "default_skin": "leylines:layla_dreaming_star",
+  "id": "leylines:layla",
+  "model": "slim"
+}

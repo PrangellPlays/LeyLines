@@ -9,6 +9,8 @@
   ],
   "client": [
     "client.AbstractClientPlayerEntityMixin",
+    "client.HandledScreenMixin",
+    "client.KeyBindingMixin",
     "client.MinecraftClientMixin"
   ],
   "injectors": {

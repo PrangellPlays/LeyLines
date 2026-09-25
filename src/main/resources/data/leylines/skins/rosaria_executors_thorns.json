@@ -1,0 +1,17 @@
+{
+  "id": "leylines:rosaria_executors_thorns",
+  "character": "leylines:rosaria",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/rosaria/skins/rosaria_executors_thorns.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

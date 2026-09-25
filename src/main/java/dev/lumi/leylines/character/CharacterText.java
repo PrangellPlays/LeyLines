@@ -1,7 +1,7 @@
 package dev.lumi.leylines.character;
 
 import dev.lumi.leylines.cca.PlayerPartyComponent;
-import dev.lumi.leylines.init.LeyLinesComponents;
+import dev.lumi.leylines.index.LeyLinesComponents;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.text.Text;
 

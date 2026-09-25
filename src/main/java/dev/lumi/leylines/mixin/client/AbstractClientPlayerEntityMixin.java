@@ -5,7 +5,7 @@ import dev.lumi.leylines.character.CharacterDefinition;
 import dev.lumi.leylines.character.CharacterSkinDefinition;
 import dev.lumi.leylines.character.LeyLinesCharacterSkinRegistry;
 import dev.lumi.leylines.character.LeylinesCharacterRegistry;
-import dev.lumi.leylines.init.LeyLinesComponents;
+import dev.lumi.leylines.index.LeyLinesComponents;
 import net.minecraft.client.network.AbstractClientPlayerEntity;
 import net.minecraft.client.util.SkinTextures;
 import net.minecraft.util.Identifier;

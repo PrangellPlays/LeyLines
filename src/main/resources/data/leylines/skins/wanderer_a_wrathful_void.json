@@ -1,0 +1,17 @@
+{
+  "id": "leylines:wanderer_a_wrathful_void",
+  "character": "leylines:wanderer",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/wanderer/skins/wanderer_a_wrathful_void.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

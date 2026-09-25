@@ -1,0 +1,17 @@
+{
+  "id": "leylines:yanfei_golden_rule",
+  "character": "leylines:yanfei",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/yanfei/skins/yanfei_golden_rule.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

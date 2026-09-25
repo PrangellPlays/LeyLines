@@ -1,0 +1,17 @@
+{
+  "id": "leylines:mona_flowing_fate",
+  "character": "leylines:mona",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/mona/skins/mona_flowing_fate.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

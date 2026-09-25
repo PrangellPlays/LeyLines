@@ -1,0 +1,17 @@
+{
+  "id": "leylines:cyno_heart_of_the_scales",
+  "character": "leylines:cyno",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/cyno/skins/cyno_heart_of_the_scales.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

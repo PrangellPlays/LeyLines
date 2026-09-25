@@ -1,0 +1,17 @@
+{
+  "id": "leylines:charlotte_hurlock_variations",
+  "character": "leylines:charlotte",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/charlotte/skins/charlotte_hurlock_variations.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

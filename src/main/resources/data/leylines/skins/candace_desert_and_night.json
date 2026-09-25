@@ -1,0 +1,17 @@
+{
+  "id": "leylines:candace_desert_and_night",
+  "character": "leylines:candace",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/candace/skins/candace_desert_and_night.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

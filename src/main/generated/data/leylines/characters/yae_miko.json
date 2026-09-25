@@ -1,0 +1,12 @@
+{
+  "character_data": {
+    "element": "leylines:element.leylines.electro",
+    "modelType": "leylines:model_type.leylines.tall_female",
+    "region": "leylines:region.leylines.inazuma",
+    "starCount": 5,
+    "weapon": "leylines:weapon_type.leylines.catalyst"
+  },
+  "default_skin": "leylines:yae_miko_mikos_instruction",
+  "id": "leylines:yae_miko",
+  "model": "slim"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "leylines:gorou_panoply_of_a_hundred_hunts",
+  "character": "leylines:gorou",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/gorou/skins/gorou_panoply_of_a_hundred_hunts.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

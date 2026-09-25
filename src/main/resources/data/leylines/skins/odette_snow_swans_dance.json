@@ -1,0 +1,17 @@
+{
+  "id": "leylines:odette_snow_swans_dance",
+  "character": "leylines:odette",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/odette/skins/odette_snow_swans_dance.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

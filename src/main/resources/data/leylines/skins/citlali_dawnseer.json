@@ -1,0 +1,17 @@
+{
+  "id": "leylines:citlali_dawnseer",
+  "character": "leylines:citlali",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/citlali/skins/citlali_dawnseer.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}

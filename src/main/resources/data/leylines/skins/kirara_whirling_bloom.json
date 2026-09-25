@@ -1,0 +1,17 @@
+{
+  "id": "leylines:kirara_whirling_bloom",
+  "character": "leylines:kirara",
+
+  "vanilla": {
+    "texture": "leylines:textures/character/kirara/skins/kirara_whirling_bloom.png",
+    "model": "slim"
+  },
+
+  "gecko": {
+    "useGeckoModel": false,
+    "texture": "",
+    "glow_texture": "",
+    "model": "",
+    "animation": ""
+  }
+}
