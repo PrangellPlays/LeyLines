@@ -6,11 +6,11 @@ lumine_rising_star.png:
 Owner: CupidsCure (Skindex, as of 16/05/2026)
 Link: https://www.minecraftskins.com/skin/23614328/--lumine-----genshin-impact--/
 
-lumine_as_heaven_and_earth.png:
+lumine_as_heaven_and_earth_are_made_anew.png:
 Owner: HumbabaTheEater (Skindex, as of 22/05/2026)
 Link: https://www.minecraftskins.com/skin/23971574/color-accurate-genshin-impact-as-heaven-and-earth-are-made-anew-lumine/
 
-aether_as_heaven_and_earth.png:
+aether_as_heaven_and_earth_are_made_anew.png:
 Owner: HumbabaTheEater (Skindex, as of 25/05/2026)
 Link: https://www.minecraftskins.com/skin/24033727/color-accurate-as-heaven-are-earth-are-made-anew-aether/
 

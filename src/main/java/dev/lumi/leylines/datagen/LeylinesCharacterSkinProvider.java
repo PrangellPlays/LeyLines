@@ -23,9 +23,9 @@ public class LeylinesCharacterSkinProvider implements DataProvider {
         List<CompletableFuture<?>> futures = new ArrayList<>();
 
         addCharacterSkin(futures, writer,
-                LeyLines.id("aether_as_heaven_and_earth"),
+                LeyLines.id("aether_as_heaven_and_earth_are_made_anew"),
                 LeyLines.id("traveler_male"),
-                LeyLines.id("textures/character/traveler/skins/traveler_male/aether_as_heaven_and_earth.png"),
+                LeyLines.id("textures/character/traveler/skins/traveler_male/aether_as_heaven_and_earth_are_made_anew.png"),
                 "slim",
                 false,
                 LeyLines.id(""),

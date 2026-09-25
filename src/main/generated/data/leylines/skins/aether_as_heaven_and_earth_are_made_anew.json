@@ -7,9 +7,9 @@
     "texture": "leylines:",
     "useGeckoModel": false
   },
-  "id": "leylines:aether_as_heaven_and_earth",
+  "id": "leylines:aether_as_heaven_and_earth_are_made_anew",
   "vanilla": {
     "model": "slim",
-    "texture": "leylines:textures/character/traveler/skins/traveler_male/aether_as_heaven_and_earth.png"
+    "texture": "leylines:textures/character/traveler/skins/traveler_male/aether_as_heaven_and_earth_are_made_anew.png"
   }
 }
