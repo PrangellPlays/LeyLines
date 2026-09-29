@@ -1,0 +1,15 @@
+{
+  "character": "leylines:tartaglia",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:tartaglia_blades_of_glory",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/tartaglia/skins/tartaglia_blades_of_glory.png"
+  }
+}

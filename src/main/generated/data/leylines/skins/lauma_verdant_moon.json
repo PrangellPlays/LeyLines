@@ -1,0 +1,15 @@
+{
+  "character": "leylines:lauma",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:lauma_verdant_moon",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/lauma/skins/lauma_verdant_moon.png"
+  }
+}

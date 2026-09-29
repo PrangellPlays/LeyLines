@@ -1,0 +1,15 @@
+{
+  "character": "leylines:kachina",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:kachina_tawny_peaks_spired_rock",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/kachina/skins/kachina_tawny_peaks_spired_rock.png"
+  }
+}

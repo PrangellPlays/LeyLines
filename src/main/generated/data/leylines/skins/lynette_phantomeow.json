@@ -1,0 +1,15 @@
+{
+  "character": "leylines:lynette",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:lynette_phantomeow",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/lynette/skins/lynette_phantomeow.png"
+  }
+}

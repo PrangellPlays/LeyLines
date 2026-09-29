@@ -1,0 +1,15 @@
+{
+  "character": "leylines:jean",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:jean_favonian_devotion",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/jean/skins/jean_favonian_devotion.png"
+  }
+}

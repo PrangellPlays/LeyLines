@@ -1,0 +1,15 @@
+{
+  "character": "leylines:nahida",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:nahida_for_all_knowledge_a_verse",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/nahida/skins/nahida_for_all_knowledge_a_verse.png"
+  }
+}

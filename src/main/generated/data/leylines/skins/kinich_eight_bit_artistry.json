@@ -1,0 +1,15 @@
+{
+  "character": "leylines:kinich",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:kinich_eight_bit_artistry",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/kinich/skins/kinich_eight_bit_artistry.png"
+  }
+}

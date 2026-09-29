@@ -1,0 +1,15 @@
+{
+  "character": "leylines:diona",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:diona_sugary_brew",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/diona/skins/diona_sugary_brew.png"
+  }
+}

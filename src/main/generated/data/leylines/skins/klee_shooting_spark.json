@@ -1,0 +1,15 @@
+{
+  "character": "leylines:klee",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:klee_shooting_spark",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/klee/skins/klee_shooting_spark.png"
+  }
+}

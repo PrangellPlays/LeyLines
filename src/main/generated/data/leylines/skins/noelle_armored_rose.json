@@ -1,0 +1,15 @@
+{
+  "character": "leylines:noelle",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:noelle_armored_rose",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/noelle/skins/noelle_armored_rose.png"
+  }
+}

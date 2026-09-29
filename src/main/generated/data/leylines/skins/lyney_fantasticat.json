@@ -1,0 +1,15 @@
+{
+  "character": "leylines:lyney",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:lyney_fantasticat",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/lyney/skins/lyney_fantasticat.png"
+  }
+}

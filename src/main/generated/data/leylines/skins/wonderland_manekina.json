@@ -1,0 +1,15 @@
+{
+  "character": "leylines:wonderland_manekin_female",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:wonderland_manekina",
+  "vanilla": {
+    "model": "slim",
+    "texture": "leylines:textures/character/wonderland_manekin/skins/wonderland_manekin_female.png"
+  }
+}

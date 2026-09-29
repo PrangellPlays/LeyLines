@@ -586,7 +586,7 @@ public class LeyLinesLangProvider extends FabricLanguageProvider {
 
         builder.add("skin.leylines.flins_nocturne", "Nocturne");
 
-        builder.add("skin.leylines.freminet_ice_skin", "Icy Skin");
+        builder.add("skin.leylines.freminet_icy_skin", "Icy Skin");
 
         builder.add("skin.leylines.furina_coronated_prima_donna", "Coronated Prima Donna");
 

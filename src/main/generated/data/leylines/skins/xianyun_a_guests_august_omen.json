@@ -1,0 +1,15 @@
+{
+  "character": "leylines:xianyun",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:xianyun_a_guests_august_omen",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/xianyun/skins/xianyun_a_guests_august_omen.png"
+  }
+}

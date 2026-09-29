@@ -1,0 +1,15 @@
+{
+  "character": "leylines:kujou_sara",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:kujou_sara_solemn_purity",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/kujou_sara/skins/kujou_sara_solemn_purity.png"
+  }
+}

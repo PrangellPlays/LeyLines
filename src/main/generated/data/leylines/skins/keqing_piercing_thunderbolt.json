@@ -1,0 +1,15 @@
+{
+  "character": "leylines:keqing",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:keqing_piercing_thunderbolt",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/keqing/skins/keqing_piercing_thunderbolt.png"
+  }
+}

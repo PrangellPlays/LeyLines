@@ -1,0 +1,15 @@
+{
+  "character": "leylines:raiden_shogun",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:raiden_shogun_narukamis_law",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/raiden_shogun/skins/raiden_shogun_narukamis_law.png"
+  }
+}

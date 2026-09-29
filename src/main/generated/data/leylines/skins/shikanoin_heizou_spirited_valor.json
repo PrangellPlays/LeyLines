@@ -1,0 +1,15 @@
+{
+  "character": "leylines:shikanoin_heizou",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:shikanoin_heizou_spirited_valor",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/shikanoin_heizou/skins/shikanoin_heizou_spirited_valor.png"
+  }
+}

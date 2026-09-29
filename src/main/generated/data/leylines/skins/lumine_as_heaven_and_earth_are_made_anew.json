@@ -1,0 +1,15 @@
+{
+  "character": "leylines:traveler_female",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:lumine_as_heaven_and_earth_are_made_anew",
+  "vanilla": {
+    "model": "slim",
+    "texture": "leylines:textures/character/traveler/skins/traveler_female/lumine_as_heaven_and_earth_are_made_anew.png"
+  }
+}

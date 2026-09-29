@@ -1,0 +1,15 @@
+{
+  "character": "leylines:dehya",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:dehya_the_lioness_and_the_blazing_sun",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/dehya/skins/dehya_the_lioness_and_the_blazing_sun.png"
+  }
+}

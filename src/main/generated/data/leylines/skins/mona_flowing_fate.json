@@ -1,0 +1,15 @@
+{
+  "character": "leylines:mona",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:mona_flowing_fate",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/mona/skins/mona_flowing_fate.png"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "character": "leylines:aloy",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:aloy_machine_hunter",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/aloy/skins/aloy_machine_hunter.png"
+  }
+}

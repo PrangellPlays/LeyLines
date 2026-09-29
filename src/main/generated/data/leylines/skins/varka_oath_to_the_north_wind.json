@@ -1,0 +1,15 @@
+{
+  "character": "leylines:varka",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:varka_oath_to_the_north_wind",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/varka/skins/varka_oath_to_the_north_wind.png"
+  }
+}

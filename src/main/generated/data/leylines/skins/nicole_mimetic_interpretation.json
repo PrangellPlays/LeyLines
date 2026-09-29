@@ -1,0 +1,15 @@
+{
+  "character": "leylines:nicole",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:nicole_mimetic_interpretation",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/nicole/skins/nicole_mimetic_interpretation.png"
+  }
+}

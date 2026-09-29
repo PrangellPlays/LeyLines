@@ -1,0 +1,15 @@
+{
+  "character": "leylines:vesna",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:vesna_springs_bond_winters_oath",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/vesna/skins/vesna_springs_bond_winters_oath.png"
+  }
+}

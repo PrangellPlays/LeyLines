@@ -1,0 +1,15 @@
+{
+  "character": "leylines:gorou",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:gorou_panoply_of_a_hundred_hunts",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/gorou/skins/gorou_panoply_of_a_hundred_hunts.png"
+  }
+}

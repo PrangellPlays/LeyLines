@@ -1,0 +1,15 @@
+{
+  "character": "leylines:arataki_itto",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:arataki_itto_eccentric_oni",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/arataki_itto/skins/arataki_itto_eccentric_oni.png"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "character": "leylines:sucrose",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:sucrose_germinating_wind",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/sucrose/skins/sucrose_germinating_wind.png"
+  }
+}

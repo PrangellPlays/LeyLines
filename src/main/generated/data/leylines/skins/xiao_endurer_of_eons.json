@@ -1,0 +1,15 @@
+{
+  "character": "leylines:xiao",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:xiao_endurer_of_eons",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/xiao/skins/xiao_endurer_of_eons.png"
+  }
+}

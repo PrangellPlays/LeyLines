@@ -1,0 +1,15 @@
+{
+  "character": "leylines:kamisato_ayato",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:kamisato_ayato_silk_splendor",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/kamisato_ayato/skins/kamisato_ayato_silk_splendor.png"
+  }
+}

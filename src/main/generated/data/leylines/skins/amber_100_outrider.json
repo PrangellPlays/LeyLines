@@ -1,0 +1,15 @@
+{
+  "character": "leylines:amber",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:amber_100_outrider",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/amber/skins/amber_100_outrider.png"
+  }
+}

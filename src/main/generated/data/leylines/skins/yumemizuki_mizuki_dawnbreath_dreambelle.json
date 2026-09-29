@@ -1,0 +1,15 @@
+{
+  "character": "leylines:yumemizuki_mizuki",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:yumemizuki_mizuki_dawnbreath_dreambelle",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/yumemizuki_mizuki/skins/yumemizuki_mizuki_dawnbreath_dreambelle.png"
+  }
+}

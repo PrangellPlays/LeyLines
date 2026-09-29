@@ -1,0 +1,15 @@
+{
+  "character": "leylines:xiangling",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:xiangling_new_years_cheer",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/xiangling/skins/xiangling_new_years_cheer.png"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "character": "leylines:navia",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:navia_yellow_velvet_salon",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/navia/skins/navia_yellow_velvet_salon.png"
+  }
+}

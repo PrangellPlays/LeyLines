@@ -6,7 +6,7 @@
     "starCount": 4,
     "weapon": "leylines:weapon_type.leylines.claymore"
   },
-  "default_skin": "leylines:freminet_ice_skin",
+  "default_skin": "leylines:freminet_icy_skin",
   "id": "leylines:freminet",
   "model": "slim"
 }

@@ -1,0 +1,15 @@
+{
+  "character": "leylines:traveler_female",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:lumine_rising_star",
+  "vanilla": {
+    "model": "slim",
+    "texture": "leylines:textures/character/traveler/skins/traveler_female/lumine_rising_star.png"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "character": "leylines:flins",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:flins_nocturne",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/flins/skins/flins_nocturne.png"
+  }
+}

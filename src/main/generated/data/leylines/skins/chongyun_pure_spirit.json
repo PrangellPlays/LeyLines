@@ -1,0 +1,15 @@
+{
+  "character": "leylines:chongyun",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:chongyun_pure_spirit",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/chongyun/skins/chongyun_pure_spirit.png"
+  }
+}

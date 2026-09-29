@@ -1,0 +1,15 @@
+{
+  "character": "leylines:tighnari",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:tighnari_woodland_song",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/tighnari/skins/tighnari_woodland_song.png"
+  }
+}

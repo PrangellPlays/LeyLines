@@ -1,0 +1,15 @@
+{
+  "character": "leylines:yun_jin",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:yun_jin_mistcloud_stage",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/yun_jin/skins/yun_jin_mistcloud_stage.png"
+  }
+}

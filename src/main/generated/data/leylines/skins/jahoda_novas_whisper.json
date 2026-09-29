@@ -1,0 +1,15 @@
+{
+  "character": "leylines:jahoda",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:jahoda_novas_whisper",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/jahoda/skins/jahoda_novas_whisper.png"
+  }
+}

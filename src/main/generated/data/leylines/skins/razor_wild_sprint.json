@@ -1,0 +1,15 @@
+{
+  "character": "leylines:razor",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:razor_wild_sprint",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/razor/skins/razor_wild_sprint.png"
+  }
+}

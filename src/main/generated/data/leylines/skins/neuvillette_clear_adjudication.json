@@ -1,0 +1,15 @@
+{
+  "character": "leylines:neuvillette",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:neuvillette_clear_adjudication",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/neuvillette/skins/neuvillette_clear_adjudication.png"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "character": "leylines:chiori",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:chiori_plucked_yamabuki_splendor",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/chiori/skins/chiori_plucked_yamabuki_splendor.png"
+  }
+}

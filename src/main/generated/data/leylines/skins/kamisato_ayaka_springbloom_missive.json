@@ -1,0 +1,15 @@
+{
+  "character": "leylines:kamisato_ayaka",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:kamisato_ayaka_springbloom_missive",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/kamisato_ayaka/skins/kamisato_ayaka_springbloom_missive.png"
+  }
+}

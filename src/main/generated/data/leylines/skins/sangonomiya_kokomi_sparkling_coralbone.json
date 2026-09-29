@@ -1,0 +1,15 @@
+{
+  "character": "leylines:sangonomiya_kokomi",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:sangonomiya_kokomi_sparkling_coralbone",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/sangonomiya_kokomi/skins/sangonomiya_kokomi_sparkling_coralbone.png"
+  }
+}

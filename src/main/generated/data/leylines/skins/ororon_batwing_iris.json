@@ -1,0 +1,15 @@
+{
+  "character": "leylines:ororon",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:ororon_batwing_iris",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/ororon/skins/ororon_batwing_iris.png"
+  }
+}

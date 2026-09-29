@@ -1,0 +1,15 @@
+{
+  "character": "leylines:ningguang",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:ningguang_gold_lead_and_pearly_jade",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/ningguang/skins/ningguang_gold_lead_and_pearly_jade.png"
+  }
+}

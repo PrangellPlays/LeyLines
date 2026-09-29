@@ -1,0 +1,15 @@
+{
+  "character": "leylines:charlotte",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:charlotte_all_is_overt_through_my_lens",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/charlotte/skins/charlotte_all_is_overt_through_my_lens.png"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "character": "leylines:kirara",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:kirara_phantom_in_boots",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/kirara/skins/kirara_phantom_in_boots.png"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "character": "leylines:candace",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:candace_desert_and_night",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/candace/skins/candace_desert_and_night.png"
+  }
+}

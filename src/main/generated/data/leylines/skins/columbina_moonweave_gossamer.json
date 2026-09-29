@@ -1,0 +1,15 @@
+{
+  "character": "leylines:columbina",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:columbina_moonweave_gossamer",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/columbina/skins/columbina_moonweave_gossamer.png"
+  }
+}

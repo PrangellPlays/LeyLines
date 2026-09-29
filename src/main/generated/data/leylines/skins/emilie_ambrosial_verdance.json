@@ -1,0 +1,15 @@
+{
+  "character": "leylines:emilie",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:emilie_ambrosial_verdance",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/emilie/skins/emilie_ambrosial_verdance.png"
+  }
+}

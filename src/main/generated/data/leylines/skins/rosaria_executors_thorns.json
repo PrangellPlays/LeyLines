@@ -1,0 +1,15 @@
+{
+  "character": "leylines:rosaria",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:rosaria_executors_thorns",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/rosaria/skins/rosaria_executors_thorns.png"
+  }
+}

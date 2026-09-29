@@ -1,0 +1,15 @@
+{
+  "character": "leylines:lan_yan",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:lan_yan_argent_chimes",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/lan_yan/skins/lan_yan_argent_chimes.png"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "character": "leylines:dori",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:dori_i_love_mora",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/dori/skins/dori_i_love_mora.png"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "character": "leylines:chevreuse",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:chevreuse_guardians_gun",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/chevreuse/skins/chevreuse_guardians_gun.png"
+  }
+}

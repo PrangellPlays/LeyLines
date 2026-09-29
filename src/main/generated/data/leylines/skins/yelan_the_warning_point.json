@@ -1,0 +1,15 @@
+{
+  "character": "leylines:yelan",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:yelan_the_warning_point",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/yelan/skins/yelan_the_warning_point.png"
+  }
+}

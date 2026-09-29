@@ -1,0 +1,15 @@
+{
+  "character": "leylines:kaedehara_kazuha",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:kaedehara_kazuha_falling_leaves",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/kaedehara_kazuha/skins/kaedehara_kazuha_falling_leaves.png"
+  }
+}

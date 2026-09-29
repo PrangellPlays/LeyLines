@@ -1,0 +1,15 @@
+{
+  "character": "leylines:freminet",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:freminet_icy_skin",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/freminet/skins/freminet_icy_skin.png"
+  }
+}

@@ -410,7 +410,7 @@ public class LeylinesCharacterProvider implements DataProvider {
         addCharacter(futures, writer,
                 LeyLines.id("freminet"),
                 "slim",
-                LeyLines.id("freminet_ice_skin"),
+                LeyLines.id("freminet_icy_skin"),
                 4,
                 LeyLines.id(CRYO),
                 LeyLines.id(CLAYMORE),

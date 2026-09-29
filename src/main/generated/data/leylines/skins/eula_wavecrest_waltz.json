@@ -1,0 +1,15 @@
+{
+  "character": "leylines:eula",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:eula_wavecrest_waltz",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/eula/skins/eula_wavecrest_waltz.png"
+  }
+}

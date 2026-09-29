@@ -1,0 +1,15 @@
+{
+  "character": "leylines:citlali",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:citlali_whispers_of_stars_and_smoke",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/citlali/skins/citlali_whispers_of_stars_and_smoke.png"
+  }
+}

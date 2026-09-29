@@ -1,0 +1,15 @@
+{
+  "character": "leylines:venti",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:venti_breezy_ode",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/venti/skins/venti_breezy_ode.png"
+  }
+}

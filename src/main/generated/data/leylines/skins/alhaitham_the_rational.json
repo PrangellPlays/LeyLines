@@ -1,0 +1,15 @@
+{
+  "character": "leylines:alhaitham",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:alhaitham_the_rational",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/alhaitham/skins/alhaitham_the_rational.png"
+  }
+}

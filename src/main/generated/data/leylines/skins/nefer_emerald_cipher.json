@@ -1,0 +1,15 @@
+{
+  "character": "leylines:nefer",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:nefer_emerald_cipher",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/nefer/skins/nefer_emerald_cipher.png"
+  }
+}

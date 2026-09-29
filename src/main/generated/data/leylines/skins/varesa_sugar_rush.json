@@ -1,0 +1,15 @@
+{
+  "character": "leylines:varesa",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:varesa_sugar_rush",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/varesa/skins/varesa_sugar_rush.png"
+  }
+}

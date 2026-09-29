@@ -1,0 +1,15 @@
+{
+  "character": "leylines:mavuika",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:mavuika_undying_sun",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/mavuika/skins/mavuika_undying_sun.png"
+  }
+}

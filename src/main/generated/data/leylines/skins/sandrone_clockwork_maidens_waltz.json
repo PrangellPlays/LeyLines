@@ -1,0 +1,15 @@
+{
+  "character": "leylines:sandrone",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:sandrone_clockwork_maidens_waltz",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/sandrone/skins/sandrone_clockwork_maidens_waltz.png"
+  }
+}

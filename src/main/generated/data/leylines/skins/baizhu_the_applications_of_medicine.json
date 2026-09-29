@@ -1,0 +1,15 @@
+{
+  "character": "leylines:baizhu",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:baizhu_the_applications_of_medicine",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/baizhu/skins/baizhu_the_applications_of_medicine.png"
+  }
+}

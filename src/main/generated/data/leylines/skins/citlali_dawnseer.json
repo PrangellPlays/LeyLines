@@ -1,0 +1,15 @@
+{
+  "character": "leylines:citlali",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:citlali_dawnseer",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/citlali/skins/citlali_dawnseer.png"
+  }
+}

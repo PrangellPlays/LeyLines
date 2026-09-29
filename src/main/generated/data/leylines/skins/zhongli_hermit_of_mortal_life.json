@@ -1,0 +1,15 @@
+{
+  "character": "leylines:zhongli",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:zhongli_hermit_of_mortal_life",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/zhongli/skins/zhongli_hermit_of_mortal_life.png"
+  }
+}

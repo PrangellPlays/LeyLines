@@ -1,0 +1,15 @@
+{
+  "character": "leylines:prune",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:prune_witch_hunter_regalia",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/prune/skins/prune_witch_hunter_regalia.png"
+  }
+}

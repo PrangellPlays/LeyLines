@@ -1,0 +1,15 @@
+{
+  "character": "leylines:bennett",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:bennett_adventures_in_blazing_hue",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/bennett/skins/bennett_adventures_in_blazing_hue.png"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "character": "leylines:xingqiu",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:xingqiu_bamboo_rain",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/xingqiu/skins/xingqiu_bamboo_rain.png"
+  }
+}

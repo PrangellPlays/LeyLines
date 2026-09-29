@@ -1,0 +1,15 @@
+{
+  "character": "leylines:mualani",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:mualani_flying_fish_heat_waves_and_moon_scallop",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/mualani/skins/mualani_flying_fish_heat_waves_and_moon_scallop.png"
+  }
+}

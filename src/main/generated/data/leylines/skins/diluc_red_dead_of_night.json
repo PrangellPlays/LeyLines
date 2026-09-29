@@ -1,0 +1,15 @@
+{
+  "character": "leylines:diluc",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:diluc_red_dead_of_night",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/diluc/skins/diluc_red_dead_of_night.png"
+  }
+}

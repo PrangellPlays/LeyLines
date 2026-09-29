@@ -1,0 +1,15 @@
+{
+  "character": "leylines:fischl",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:fischl_dunkelnacht_sakrament",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/fischl/skins/fischl_dunkelnacht_sakrament.png"
+  }
+}

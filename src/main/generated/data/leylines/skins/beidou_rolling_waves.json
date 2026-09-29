@@ -1,0 +1,15 @@
+{
+  "character": "leylines:beidou",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:beidou_rolling_waves",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/beidou/skins/beidou_rolling_waves.png"
+  }
+}

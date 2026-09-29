@@ -1,0 +1,15 @@
+{
+  "character": "leylines:shenhe",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:shenhe_the_worlds_shackles",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/shenhe/skins/shenhe_the_worlds_shackles.png"
+  }
+}

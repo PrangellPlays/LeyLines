@@ -1,0 +1,15 @@
+{
+  "character": "leylines:illuga",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:illuga_steadfast_resolve",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/illuga/skins/illuga_steadfast_resolve.png"
+  }
+}

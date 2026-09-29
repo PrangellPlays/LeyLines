@@ -1,0 +1,15 @@
+{
+  "character": "leylines:barbara",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:barbara_summertime_sparkle",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/barbara/skins/barbara_summertime_sparkle.png"
+  }
+}

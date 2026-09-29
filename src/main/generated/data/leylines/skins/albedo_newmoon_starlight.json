@@ -1,0 +1,15 @@
+{
+  "character": "leylines:albedo",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:albedo_newmoon_starlight",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/albedo/skins/albedo_newmoon_starlight.png"
+  }
+}

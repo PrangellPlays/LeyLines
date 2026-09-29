@@ -1,0 +1,15 @@
+{
+  "character": "leylines:layla",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:layla_dreaming_star",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/layla/skins/layla_dreaming_star.png"
+  }
+}

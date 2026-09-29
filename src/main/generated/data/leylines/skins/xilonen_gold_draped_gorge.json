@@ -1,0 +1,15 @@
+{
+  "character": "leylines:xilonen",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:xilonen_gold_draped_gorge",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/xilonen/skins/xilonen_gold_draped_gorge.png"
+  }
+}

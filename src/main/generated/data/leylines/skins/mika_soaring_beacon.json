@@ -1,0 +1,15 @@
+{
+  "character": "leylines:mika",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:mika_soaring_beacon",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/mika/skins/mika_soaring_beacon.png"
+  }
+}
