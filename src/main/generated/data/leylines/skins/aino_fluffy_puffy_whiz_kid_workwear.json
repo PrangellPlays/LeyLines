@@ -1,0 +1,15 @@
+{
+  "character": "leylines:aino",
+  "gecko": {
+    "animation": "leylines:",
+    "glow_texture": "leylines:",
+    "model": "leylines:",
+    "texture": "leylines:",
+    "useGeckoModel": false
+  },
+  "id": "leylines:aino_fluffy_puffy_whiz_kid_workwear",
+  "vanilla": {
+    "model": "slim",
+    "texture": "minecraft:textures/character/aino/skins/aino_fluffy_puffy_whiz_kid_workwear.png"
+  }
+}
