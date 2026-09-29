@@ -10,6 +10,6 @@
   "id": "leylines:nahida_for_all_knowledge_a_verse",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/nahida/skins/nahida_for_all_knowledge_a_verse.png"
+    "texture": "leylines:textures/character/nahida/skins/nahida_for_all_knowledge_a_verse.png"
   }
 }

@@ -10,6 +10,6 @@
   "id": "leylines:xingqiu_azure_silk",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/xingqiu/skins/xingqiu_azure_silk.png"
+    "texture": "leylines:textures/character/xingqiu/skins/xingqiu_azure_silk.png"
   }
 }

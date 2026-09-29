@@ -10,6 +10,6 @@
   "id": "leylines:shenhe_the_worlds_shackles",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/shenhe/skins/shenhe_the_worlds_shackles.png"
+    "texture": "leylines:textures/character/shenhe/skins/shenhe_the_worlds_shackles.png"
   }
 }

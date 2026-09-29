@@ -10,6 +10,6 @@
   "id": "leylines:wanderer_a_wrathful_void",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/wanderer/skins/wanderer_a_wrathful_void.png"
+    "texture": "leylines:textures/character/wanderer/skins/wanderer_a_wrathful_void.png"
   }
 }

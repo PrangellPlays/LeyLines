@@ -10,6 +10,6 @@
   "id": "leylines:sangonomiya_kokomi_sparkling_coralbone",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/sangonomiya_kokomi/skins/sangonomiya_kokomi_sparkling_coralbone.png"
+    "texture": "leylines:textures/character/sangonomiya_kokomi/skins/sangonomiya_kokomi_sparkling_coralbone.png"
   }
 }

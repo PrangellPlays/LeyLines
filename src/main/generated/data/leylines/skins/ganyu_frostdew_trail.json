@@ -10,6 +10,6 @@
   "id": "leylines:ganyu_frostdew_trail",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/ganyu/skins/ganyu_frostdew_trail.png"
+    "texture": "leylines:textures/character/ganyu/skins/ganyu_frostdew_trail.png"
   }
 }

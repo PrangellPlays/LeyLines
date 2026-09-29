@@ -10,6 +10,6 @@
   "id": "leylines:escoffier_sorbet_honey_pie",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/escoffier/skins/escoffier_sorbet_honey_pie.png"
+    "texture": "leylines:textures/character/escoffier/skins/escoffier_sorbet_honey_pie.png"
   }
 }

@@ -10,6 +10,6 @@
   "id": "leylines:kaeya_sailwind_shadow",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/kaeya/skins/kaeya_sailwind_shadow.png"
+    "texture": "leylines:textures/character/kaeya/skins/kaeya_sailwind_shadow.png"
   }
 }

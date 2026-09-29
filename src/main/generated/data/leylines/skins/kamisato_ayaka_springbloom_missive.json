@@ -10,6 +10,6 @@
   "id": "leylines:kamisato_ayaka_springbloom_missive",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/kamisato_ayaka/skins/kamisato_ayaka_springbloom_missive.png"
+    "texture": "leylines:textures/character/kamisato_ayaka/skins/kamisato_ayaka_springbloom_missive.png"
   }
 }

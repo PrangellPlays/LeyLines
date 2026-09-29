@@ -10,6 +10,6 @@
   "id": "leylines:barbara_summertime_sparkle",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/barbara/skins/barbara_summertime_sparkle.png"
+    "texture": "leylines:textures/character/barbara/skins/barbara_summertime_sparkle.png"
   }
 }

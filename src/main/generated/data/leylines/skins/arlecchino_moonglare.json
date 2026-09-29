@@ -10,6 +10,6 @@
   "id": "leylines:arlecchino_moonglare",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/arlecchino/skins/arlecchino_moonglare.png"
+    "texture": "leylines:textures/character/arlecchino/skins/arlecchino_moonglare.png"
   }
 }

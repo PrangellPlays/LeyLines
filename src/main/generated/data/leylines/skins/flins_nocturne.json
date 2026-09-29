@@ -10,6 +10,6 @@
   "id": "leylines:flins_nocturne",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/flins/skins/flins_nocturne.png"
+    "texture": "leylines:textures/character/flins/skins/flins_nocturne.png"
   }
 }

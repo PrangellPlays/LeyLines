@@ -10,6 +10,6 @@
   "id": "leylines:neuvillette_melusent_gift",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/neuvillette/skins/neuvillette_melusent_gift.png"
+    "texture": "leylines:textures/character/neuvillette/skins/neuvillette_melusent_gift.png"
   }
 }

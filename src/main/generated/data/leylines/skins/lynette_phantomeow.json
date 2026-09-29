@@ -10,6 +10,6 @@
   "id": "leylines:lynette_phantomeow",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/lynette/skins/lynette_phantomeow.png"
+    "texture": "leylines:textures/character/lynette/skins/lynette_phantomeow.png"
   }
 }

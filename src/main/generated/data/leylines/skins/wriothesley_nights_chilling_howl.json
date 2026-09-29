@@ -10,6 +10,6 @@
   "id": "leylines:wriothesley_nights_chilling_howl",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/wriothesley/skins/wriothesley_nights_chilling_howl.png"
+    "texture": "leylines:textures/character/wriothesley/skins/wriothesley_nights_chilling_howl.png"
   }
 }

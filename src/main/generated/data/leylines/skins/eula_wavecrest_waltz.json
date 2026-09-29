@@ -10,6 +10,6 @@
   "id": "leylines:eula_wavecrest_waltz",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/eula/skins/eula_wavecrest_waltz.png"
+    "texture": "leylines:textures/character/eula/skins/eula_wavecrest_waltz.png"
   }
 }

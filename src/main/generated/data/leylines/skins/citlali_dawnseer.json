@@ -10,6 +10,6 @@
   "id": "leylines:citlali_dawnseer",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/citlali/skins/citlali_dawnseer.png"
+    "texture": "leylines:textures/character/citlali/skins/citlali_dawnseer.png"
   }
 }

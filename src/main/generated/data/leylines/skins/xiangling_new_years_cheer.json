@@ -10,6 +10,6 @@
   "id": "leylines:xiangling_new_years_cheer",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/xiangling/skins/xiangling_new_years_cheer.png"
+    "texture": "leylines:textures/character/xiangling/skins/xiangling_new_years_cheer.png"
   }
 }

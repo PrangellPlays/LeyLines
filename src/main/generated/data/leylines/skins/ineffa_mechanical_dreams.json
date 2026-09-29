@@ -10,6 +10,6 @@
   "id": "leylines:ineffa_mechanical_dreams",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/ineffa/skins/ineffa_mechanical_dreams.png"
+    "texture": "leylines:textures/character/ineffa/skins/ineffa_mechanical_dreams.png"
   }
 }

@@ -10,6 +10,6 @@
   "id": "leylines:kachina_tawny_peaks_spired_rock",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/kachina/skins/kachina_tawny_peaks_spired_rock.png"
+    "texture": "leylines:textures/character/kachina/skins/kachina_tawny_peaks_spired_rock.png"
   }
 }

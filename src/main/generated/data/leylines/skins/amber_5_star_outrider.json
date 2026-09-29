@@ -10,6 +10,6 @@
   "id": "leylines:amber_5_star_outrider",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/amber/skins/amber_5_star_outrider.png"
+    "texture": "leylines:textures/character/amber/skins/amber_5_star_outrider.png"
   }
 }

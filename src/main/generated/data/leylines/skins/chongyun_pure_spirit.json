@@ -10,6 +10,6 @@
   "id": "leylines:chongyun_pure_spirit",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/chongyun/skins/chongyun_pure_spirit.png"
+    "texture": "leylines:textures/character/chongyun/skins/chongyun_pure_spirit.png"
   }
 }

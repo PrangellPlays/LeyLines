@@ -10,6 +10,6 @@
   "id": "leylines:freminet_icy_skin",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/freminet/skins/freminet_icy_skin.png"
+    "texture": "leylines:textures/character/freminet/skins/freminet_icy_skin.png"
   }
 }

@@ -10,6 +10,6 @@
   "id": "leylines:clorinde_sword_of_honor",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/clorinde/skins/clorinde_sword_of_honor.png"
+    "texture": "leylines:textures/character/clorinde/skins/clorinde_sword_of_honor.png"
   }
 }

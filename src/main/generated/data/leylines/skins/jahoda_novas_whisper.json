@@ -10,6 +10,6 @@
   "id": "leylines:jahoda_novas_whisper",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/jahoda/skins/jahoda_novas_whisper.png"
+    "texture": "leylines:textures/character/jahoda/skins/jahoda_novas_whisper.png"
   }
 }

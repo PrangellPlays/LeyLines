@@ -10,6 +10,6 @@
   "id": "leylines:lan_yan_argent_chimes",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/lan_yan/skins/lan_yan_argent_chimes.png"
+    "texture": "leylines:textures/character/lan_yan/skins/lan_yan_argent_chimes.png"
   }
 }

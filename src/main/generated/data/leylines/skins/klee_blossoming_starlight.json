@@ -10,6 +10,6 @@
   "id": "leylines:klee_blossoming_starlight",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/klee/skins/klee_blossoming_starlight.png"
+    "texture": "leylines:textures/character/klee/skins/klee_blossoming_starlight.png"
   }
 }

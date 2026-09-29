@@ -10,6 +10,6 @@
   "id": "leylines:durin_a_gift_from_the_stars",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/durin/skins/durin_a_gift_from_the_stars.png"
+    "texture": "leylines:textures/character/durin/skins/durin_a_gift_from_the_stars.png"
   }
 }

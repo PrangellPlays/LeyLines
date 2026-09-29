@@ -10,6 +10,6 @@
   "id": "leylines:raiden_shogun_narukamis_law",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/raiden_shogun/skins/raiden_shogun_narukamis_law.png"
+    "texture": "leylines:textures/character/raiden_shogun/skins/raiden_shogun_narukamis_law.png"
   }
 }

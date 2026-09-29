@@ -10,6 +10,6 @@
   "id": "leylines:rosaria_to_the_churchs_free_spirit",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/rosaria/skins/rosaria_to_the_churchs_free_spirit.png"
+    "texture": "leylines:textures/character/rosaria/skins/rosaria_to_the_churchs_free_spirit.png"
   }
 }

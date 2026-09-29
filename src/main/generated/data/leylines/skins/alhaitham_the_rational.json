@@ -10,6 +10,6 @@
   "id": "leylines:alhaitham_the_rational",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/alhaitham/skins/alhaitham_the_rational.png"
+    "texture": "leylines:textures/character/alhaitham/skins/alhaitham_the_rational.png"
   }
 }

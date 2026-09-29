@@ -10,6 +10,6 @@
   "id": "leylines:yaoyao_cherubic_osmanthus",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/yaoyao/skins/yaoyao_cherubic_osmanthus.png"
+    "texture": "leylines:textures/character/yaoyao/skins/yaoyao_cherubic_osmanthus.png"
   }
 }

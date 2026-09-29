@@ -10,6 +10,6 @@
   "id": "leylines:aloy_machine_hunter",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/aloy/skins/aloy_machine_hunter.png"
+    "texture": "leylines:textures/character/aloy/skins/aloy_machine_hunter.png"
   }
 }

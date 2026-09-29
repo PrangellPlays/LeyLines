@@ -10,6 +10,6 @@
   "id": "leylines:yaoyao_rainlit_bamboo_reverie",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/yaoyao/skins/yaoyao_rainlit_bamboo_reverie.png"
+    "texture": "leylines:textures/character/yaoyao/skins/yaoyao_rainlit_bamboo_reverie.png"
   }
 }

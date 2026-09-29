@@ -10,6 +10,6 @@
   "id": "leylines:sayu_mini_mujina",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/sayu/skins/sayu_mini_mujina.png"
+    "texture": "leylines:textures/character/sayu/skins/sayu_mini_mujina.png"
   }
 }

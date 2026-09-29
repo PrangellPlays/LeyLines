@@ -10,6 +10,6 @@
   "id": "leylines:faruzan_pristine_elegance",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/faruzan/skins/faruzan_pristine_elegance.png"
+    "texture": "leylines:textures/character/faruzan/skins/faruzan_pristine_elegance.png"
   }
 }

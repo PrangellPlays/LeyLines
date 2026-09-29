@@ -10,6 +10,6 @@
   "id": "leylines:chevreuse_guardians_gun",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/chevreuse/skins/chevreuse_guardians_gun.png"
+    "texture": "leylines:textures/character/chevreuse/skins/chevreuse_guardians_gun.png"
   }
 }

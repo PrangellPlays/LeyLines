@@ -10,6 +10,6 @@
   "id": "leylines:zibai_moonlit_courser",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/zibai/skins/zibai_moonlit_courser.png"
+    "texture": "leylines:textures/character/zibai/skins/zibai_moonlit_courser.png"
   }
 }

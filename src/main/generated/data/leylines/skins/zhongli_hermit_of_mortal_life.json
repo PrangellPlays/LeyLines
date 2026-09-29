@@ -10,6 +10,6 @@
   "id": "leylines:zhongli_hermit_of_mortal_life",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/zhongli/skins/zhongli_hermit_of_mortal_life.png"
+    "texture": "leylines:textures/character/zhongli/skins/zhongli_hermit_of_mortal_life.png"
   }
 }

@@ -10,6 +10,6 @@
   "id": "leylines:nilou_neither_flower_nor_mist",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/nilou/skins/nilou_neither_flower_nor_mist.png"
+    "texture": "leylines:textures/character/nilou/skins/nilou_neither_flower_nor_mist.png"
   }
 }

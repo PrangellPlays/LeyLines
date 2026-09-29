@@ -10,6 +10,6 @@
   "id": "leylines:nefer_emerald_cipher",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/nefer/skins/nefer_emerald_cipher.png"
+    "texture": "leylines:textures/character/nefer/skins/nefer_emerald_cipher.png"
   }
 }

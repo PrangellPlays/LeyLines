@@ -10,6 +10,6 @@
   "id": "leylines:venti_breezy_ode",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/venti/skins/venti_breezy_ode.png"
+    "texture": "leylines:textures/character/venti/skins/venti_breezy_ode.png"
   }
 }

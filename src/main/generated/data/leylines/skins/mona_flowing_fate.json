@@ -10,6 +10,6 @@
   "id": "leylines:mona_flowing_fate",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/mona/skins/mona_flowing_fate.png"
+    "texture": "leylines:textures/character/mona/skins/mona_flowing_fate.png"
   }
 }

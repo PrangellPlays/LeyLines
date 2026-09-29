@@ -10,6 +10,6 @@
   "id": "leylines:candace_desert_and_night",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/candace/skins/candace_desert_and_night.png"
+    "texture": "leylines:textures/character/candace/skins/candace_desert_and_night.png"
   }
 }

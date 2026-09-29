@@ -10,6 +10,6 @@
   "id": "leylines:shikanoin_heizou_spirited_valor",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/shikanoin_heizou/skins/shikanoin_heizou_spirited_valor.png"
+    "texture": "leylines:textures/character/shikanoin_heizou/skins/shikanoin_heizou_spirited_valor.png"
   }
 }

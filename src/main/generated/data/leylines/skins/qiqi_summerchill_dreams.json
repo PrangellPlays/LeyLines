@@ -10,6 +10,6 @@
   "id": "leylines:qiqi_summerchill_dreams",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/qiqi/skins/qiqi_summerchill_dreams.png"
+    "texture": "leylines:textures/character/qiqi/skins/qiqi_summerchill_dreams.png"
   }
 }

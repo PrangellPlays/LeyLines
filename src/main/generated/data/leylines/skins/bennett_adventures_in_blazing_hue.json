@@ -10,6 +10,6 @@
   "id": "leylines:bennett_adventures_in_blazing_hue",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/bennett/skins/bennett_adventures_in_blazing_hue.png"
+    "texture": "leylines:textures/character/bennett/skins/bennett_adventures_in_blazing_hue.png"
   }
 }

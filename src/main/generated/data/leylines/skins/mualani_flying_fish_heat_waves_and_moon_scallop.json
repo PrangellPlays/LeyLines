@@ -10,6 +10,6 @@
   "id": "leylines:mualani_flying_fish_heat_waves_and_moon_scallop",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/mualani/skins/mualani_flying_fish_heat_waves_and_moon_scallop.png"
+    "texture": "leylines:textures/character/mualani/skins/mualani_flying_fish_heat_waves_and_moon_scallop.png"
   }
 }

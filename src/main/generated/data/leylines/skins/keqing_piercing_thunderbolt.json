@@ -10,6 +10,6 @@
   "id": "leylines:keqing_piercing_thunderbolt",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/keqing/skins/keqing_piercing_thunderbolt.png"
+    "texture": "leylines:textures/character/keqing/skins/keqing_piercing_thunderbolt.png"
   }
 }

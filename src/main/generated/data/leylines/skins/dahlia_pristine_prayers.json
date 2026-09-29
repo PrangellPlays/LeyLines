@@ -10,6 +10,6 @@
   "id": "leylines:dahlia_pristine_prayers",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/dahlia/skins/dahlia_pristine_prayers.png"
+    "texture": "leylines:textures/character/dahlia/skins/dahlia_pristine_prayers.png"
   }
 }

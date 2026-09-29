@@ -10,6 +10,6 @@
   "id": "leylines:skirk_shattered_star",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/skirk/skins/skirk_shattered_star.png"
+    "texture": "leylines:textures/character/skirk/skins/skirk_shattered_star.png"
   }
 }

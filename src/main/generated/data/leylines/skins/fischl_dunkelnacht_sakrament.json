@@ -10,6 +10,6 @@
   "id": "leylines:fischl_dunkelnacht_sakrament",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/fischl/skins/fischl_dunkelnacht_sakrament.png"
+    "texture": "leylines:textures/character/fischl/skins/fischl_dunkelnacht_sakrament.png"
   }
 }

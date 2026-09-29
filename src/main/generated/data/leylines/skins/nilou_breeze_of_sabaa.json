@@ -10,6 +10,6 @@
   "id": "leylines:nilou_breeze_of_sabaa",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/nilou/skins/nilou_breeze_of_sabaa.png"
+    "texture": "leylines:textures/character/nilou/skins/nilou_breeze_of_sabaa.png"
   }
 }

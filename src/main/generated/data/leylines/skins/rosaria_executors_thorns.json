@@ -10,6 +10,6 @@
   "id": "leylines:rosaria_executors_thorns",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/rosaria/skins/rosaria_executors_thorns.png"
+    "texture": "leylines:textures/character/rosaria/skins/rosaria_executors_thorns.png"
   }
 }

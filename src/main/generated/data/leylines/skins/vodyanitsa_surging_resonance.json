@@ -10,6 +10,6 @@
   "id": "leylines:vodyanitsa_surging_resonance",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/vodyanitsa/skins/vodyanitsa_surging_resonance.png"
+    "texture": "leylines:textures/character/vodyanitsa/skins/vodyanitsa_surging_resonance.png"
   }
 }

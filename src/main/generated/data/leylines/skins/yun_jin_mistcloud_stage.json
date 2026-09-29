@@ -10,6 +10,6 @@
   "id": "leylines:yun_jin_mistcloud_stage",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/yun_jin/skins/yun_jin_mistcloud_stage.png"
+    "texture": "leylines:textures/character/yun_jin/skins/yun_jin_mistcloud_stage.png"
   }
 }

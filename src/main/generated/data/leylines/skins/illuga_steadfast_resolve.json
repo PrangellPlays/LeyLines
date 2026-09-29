@@ -10,6 +10,6 @@
   "id": "leylines:illuga_steadfast_resolve",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/illuga/skins/illuga_steadfast_resolve.png"
+    "texture": "leylines:textures/character/illuga/skins/illuga_steadfast_resolve.png"
   }
 }

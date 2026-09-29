@@ -10,6 +10,6 @@
   "id": "leylines:tartaglia_blades_of_glory",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/tartaglia/skins/tartaglia_blades_of_glory.png"
+    "texture": "leylines:textures/character/tartaglia/skins/tartaglia_blades_of_glory.png"
   }
 }

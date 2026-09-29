@@ -10,6 +10,6 @@
   "id": "leylines:aino_fluffy_puffy_whiz_kid_workwear",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/aino/skins/aino_fluffy_puffy_whiz_kid_workwear.png"
+    "texture": "leylines:textures/character/aino/skins/aino_fluffy_puffy_whiz_kid_workwear.png"
   }
 }

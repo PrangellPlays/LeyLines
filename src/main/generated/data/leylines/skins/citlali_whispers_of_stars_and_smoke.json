@@ -10,6 +10,6 @@
   "id": "leylines:citlali_whispers_of_stars_and_smoke",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/citlali/skins/citlali_whispers_of_stars_and_smoke.png"
+    "texture": "leylines:textures/character/citlali/skins/citlali_whispers_of_stars_and_smoke.png"
   }
 }

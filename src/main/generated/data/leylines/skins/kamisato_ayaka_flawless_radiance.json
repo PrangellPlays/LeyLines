@@ -10,6 +10,6 @@
   "id": "leylines:kamisato_ayaka_flawless_radiance",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/kamisato_ayaka/skins/kamisato_ayaka_flawless_radiance.png"
+    "texture": "leylines:textures/character/kamisato_ayaka/skins/kamisato_ayaka_flawless_radiance.png"
   }
 }

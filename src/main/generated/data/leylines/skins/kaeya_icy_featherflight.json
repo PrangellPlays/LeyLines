@@ -10,6 +10,6 @@
   "id": "leylines:kaeya_icy_featherflight",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/kaeya/skins/kaeya_icy_featherflight.png"
+    "texture": "leylines:textures/character/kaeya/skins/kaeya_icy_featherflight.png"
   }
 }

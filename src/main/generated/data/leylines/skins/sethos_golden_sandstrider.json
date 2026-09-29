@@ -10,6 +10,6 @@
   "id": "leylines:sethos_golden_sandstrider",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/sethos/skins/sethos_golden_sandstrider.png"
+    "texture": "leylines:textures/character/sethos/skins/sethos_golden_sandstrider.png"
   }
 }

@@ -10,6 +10,6 @@
   "id": "leylines:yae_miko_mikos_instruction",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/yae_miko/skins/yae_miko_mikos_instruction.png"
+    "texture": "leylines:textures/character/yae_miko/skins/yae_miko_mikos_instruction.png"
   }
 }

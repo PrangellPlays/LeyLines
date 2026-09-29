@@ -10,6 +10,6 @@
   "id": "leylines:ifa_whistledart_wings",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/ifa/skins/ifa_whistledart_wings.png"
+    "texture": "leylines:textures/character/ifa/skins/ifa_whistledart_wings.png"
   }
 }

@@ -10,6 +10,6 @@
   "id": "leylines:tighnari_woodland_song",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/tighnari/skins/tighnari_woodland_song.png"
+    "texture": "leylines:textures/character/tighnari/skins/tighnari_woodland_song.png"
   }
 }

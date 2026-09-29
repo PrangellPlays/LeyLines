@@ -10,6 +10,6 @@
   "id": "leylines:kuki_shinobu_aratakis_demonic_deputy",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/kuki_shinobu/skins/kuki_shinobu_aratakis_demonic_deputy.png"
+    "texture": "leylines:textures/character/kuki_shinobu/skins/kuki_shinobu_aratakis_demonic_deputy.png"
   }
 }

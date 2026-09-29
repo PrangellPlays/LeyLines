@@ -10,6 +10,6 @@
   "id": "leylines:linnea_lone_feathers_omen",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/linnea/skins/linnea_lone_feathers_omen.png"
+    "texture": "leylines:textures/character/linnea/skins/linnea_lone_feathers_omen.png"
   }
 }

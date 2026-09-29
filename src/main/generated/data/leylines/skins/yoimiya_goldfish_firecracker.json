@@ -10,6 +10,6 @@
   "id": "leylines:yoimiya_goldfish_firecracker",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/yoimiya/skins/yoimiya_goldfish_firecracker.png"
+    "texture": "leylines:textures/character/yoimiya/skins/yoimiya_goldfish_firecracker.png"
   }
 }

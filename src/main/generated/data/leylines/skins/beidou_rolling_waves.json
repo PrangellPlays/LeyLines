@@ -10,6 +10,6 @@
   "id": "leylines:beidou_rolling_waves",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/beidou/skins/beidou_rolling_waves.png"
+    "texture": "leylines:textures/character/beidou/skins/beidou_rolling_waves.png"
   }
 }

@@ -10,6 +10,6 @@
   "id": "leylines:klee_shooting_spark",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/klee/skins/klee_shooting_spark.png"
+    "texture": "leylines:textures/character/klee/skins/klee_shooting_spark.png"
   }
 }

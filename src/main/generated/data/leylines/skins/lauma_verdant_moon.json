@@ -10,6 +10,6 @@
   "id": "leylines:lauma_verdant_moon",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/lauma/skins/lauma_verdant_moon.png"
+    "texture": "leylines:textures/character/lauma/skins/lauma_verdant_moon.png"
   }
 }

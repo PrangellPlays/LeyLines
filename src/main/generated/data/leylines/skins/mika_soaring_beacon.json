@@ -10,6 +10,6 @@
   "id": "leylines:mika_soaring_beacon",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/mika/skins/mika_soaring_beacon.png"
+    "texture": "leylines:textures/character/mika/skins/mika_soaring_beacon.png"
   }
 }

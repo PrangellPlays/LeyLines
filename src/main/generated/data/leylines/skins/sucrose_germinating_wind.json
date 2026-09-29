@@ -10,6 +10,6 @@
   "id": "leylines:sucrose_germinating_wind",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/sucrose/skins/sucrose_germinating_wind.png"
+    "texture": "leylines:textures/character/sucrose/skins/sucrose_germinating_wind.png"
   }
 }

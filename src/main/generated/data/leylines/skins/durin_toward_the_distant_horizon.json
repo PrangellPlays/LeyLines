@@ -10,6 +10,6 @@
   "id": "leylines:durin_toward_the_distant_horizon",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/durin/skins/durin_toward_the_distant_horizon.png"
+    "texture": "leylines:textures/character/durin/skins/durin_toward_the_distant_horizon.png"
   }
 }

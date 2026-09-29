@@ -10,6 +10,6 @@
   "id": "leylines:charlotte_hurlock_variations",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/charlotte/skins/charlotte_hurlock_variations.png"
+    "texture": "leylines:textures/character/charlotte/skins/charlotte_hurlock_variations.png"
   }
 }

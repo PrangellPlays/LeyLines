@@ -10,6 +10,6 @@
   "id": "leylines:yelan_the_warning_point",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/yelan/skins/yelan_the_warning_point.png"
+    "texture": "leylines:textures/character/yelan/skins/yelan_the_warning_point.png"
   }
 }

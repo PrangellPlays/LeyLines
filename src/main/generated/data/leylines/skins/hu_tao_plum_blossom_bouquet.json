@@ -10,6 +10,6 @@
   "id": "leylines:hu_tao_plum_blossom_bouquet",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/hu_tao/skins/hu_tao_plum_blossom_bouquet.png"
+    "texture": "leylines:textures/character/hu_tao/skins/hu_tao_plum_blossom_bouquet.png"
   }
 }

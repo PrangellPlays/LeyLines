@@ -10,6 +10,6 @@
   "id": "leylines:iansan_warriors_bonegarb",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/iansan/skins/iansan_warriors_bonegarb.png"
+    "texture": "leylines:textures/character/iansan/skins/iansan_warriors_bonegarb.png"
   }
 }

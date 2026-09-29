@@ -10,6 +10,6 @@
   "id": "leylines:lisa_purple_rose",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/lisa/skins/lisa_purple_rose.png"
+    "texture": "leylines:textures/character/lisa/skins/lisa_purple_rose.png"
   }
 }

@@ -10,6 +10,6 @@
   "id": "leylines:varka_oath_to_the_north_wind",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/varka/skins/varka_oath_to_the_north_wind.png"
+    "texture": "leylines:textures/character/varka/skins/varka_oath_to_the_north_wind.png"
   }
 }

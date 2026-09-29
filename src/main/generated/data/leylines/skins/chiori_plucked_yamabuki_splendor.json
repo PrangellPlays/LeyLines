@@ -10,6 +10,6 @@
   "id": "leylines:chiori_plucked_yamabuki_splendor",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/chiori/skins/chiori_plucked_yamabuki_splendor.png"
+    "texture": "leylines:textures/character/chiori/skins/chiori_plucked_yamabuki_splendor.png"
   }
 }

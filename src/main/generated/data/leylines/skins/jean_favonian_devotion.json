@@ -10,6 +10,6 @@
   "id": "leylines:jean_favonian_devotion",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/jean/skins/jean_favonian_devotion.png"
+    "texture": "leylines:textures/character/jean/skins/jean_favonian_devotion.png"
   }
 }

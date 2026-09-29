@@ -10,6 +10,6 @@
   "id": "leylines:yanfei_golden_rule",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/yanfei/skins/yanfei_golden_rule.png"
+    "texture": "leylines:textures/character/yanfei/skins/yanfei_golden_rule.png"
   }
 }

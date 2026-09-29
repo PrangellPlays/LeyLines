@@ -10,6 +10,6 @@
   "id": "leylines:alyosha_frost_cloaked_ambusher",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/alyosha/skins/alyosha_frost_cloaked_ambusher.png"
+    "texture": "leylines:textures/character/alyosha/skins/alyosha_frost_cloaked_ambusher.png"
   }
 }

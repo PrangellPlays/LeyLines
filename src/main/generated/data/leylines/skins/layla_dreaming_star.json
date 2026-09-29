@@ -10,6 +10,6 @@
   "id": "leylines:layla_dreaming_star",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/layla/skins/layla_dreaming_star.png"
+    "texture": "leylines:textures/character/layla/skins/layla_dreaming_star.png"
   }
 }

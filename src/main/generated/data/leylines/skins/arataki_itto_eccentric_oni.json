@@ -10,6 +10,6 @@
   "id": "leylines:arataki_itto_eccentric_oni",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/arataki_itto/skins/arataki_itto_eccentric_oni.png"
+    "texture": "leylines:textures/character/arataki_itto/skins/arataki_itto_eccentric_oni.png"
   }
 }

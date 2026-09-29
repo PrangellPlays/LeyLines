@@ -10,6 +10,6 @@
   "id": "leylines:dori_i_love_mora",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/dori/skins/dori_i_love_mora.png"
+    "texture": "leylines:textures/character/dori/skins/dori_i_love_mora.png"
   }
 }

@@ -10,6 +10,6 @@
   "id": "leylines:diluc_red_dead_of_night",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/diluc/skins/diluc_red_dead_of_night.png"
+    "texture": "leylines:textures/character/diluc/skins/diluc_red_dead_of_night.png"
   }
 }

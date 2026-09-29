@@ -10,6 +10,6 @@
   "id": "leylines:gaming_ranging_rainbow",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/gaming/skins/gaming_ranging_rainbow.png"
+    "texture": "leylines:textures/character/gaming/skins/gaming_ranging_rainbow.png"
   }
 }

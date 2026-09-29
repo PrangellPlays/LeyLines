@@ -10,6 +10,6 @@
   "id": "leylines:xingqiu_bamboo_rain",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/xingqiu/skins/xingqiu_bamboo_rain.png"
+    "texture": "leylines:textures/character/xingqiu/skins/xingqiu_bamboo_rain.png"
   }
 }

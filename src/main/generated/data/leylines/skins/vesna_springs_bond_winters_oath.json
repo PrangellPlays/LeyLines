@@ -10,6 +10,6 @@
   "id": "leylines:vesna_springs_bond_winters_oath",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/vesna/skins/vesna_springs_bond_winters_oath.png"
+    "texture": "leylines:textures/character/vesna/skins/vesna_springs_bond_winters_oath.png"
   }
 }

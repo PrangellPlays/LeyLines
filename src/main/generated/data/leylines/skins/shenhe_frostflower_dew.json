@@ -10,6 +10,6 @@
   "id": "leylines:shenhe_frostflower_dew",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/shenhe/skins/shenhe_frostflower_dew.png"
+    "texture": "leylines:textures/character/shenhe/skins/shenhe_frostflower_dew.png"
   }
 }

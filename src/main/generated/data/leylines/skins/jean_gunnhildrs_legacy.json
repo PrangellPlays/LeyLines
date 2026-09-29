@@ -10,6 +10,6 @@
   "id": "leylines:jean_gunnhildrs_legacy",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/jean/skins/jean_gunnhildrs_legacy.png"
+    "texture": "leylines:textures/character/jean/skins/jean_gunnhildrs_legacy.png"
   }
 }

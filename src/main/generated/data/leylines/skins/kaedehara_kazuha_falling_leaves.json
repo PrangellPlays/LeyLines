@@ -10,6 +10,6 @@
   "id": "leylines:kaedehara_kazuha_falling_leaves",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/kaedehara_kazuha/skins/kaedehara_kazuha_falling_leaves.png"
+    "texture": "leylines:textures/character/kaedehara_kazuha/skins/kaedehara_kazuha_falling_leaves.png"
   }
 }

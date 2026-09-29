@@ -10,6 +10,6 @@
   "id": "leylines:keqing_opulent_splendor",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/keqing/skins/keqing_opulent_splendor.png"
+    "texture": "leylines:textures/character/keqing/skins/keqing_opulent_splendor.png"
   }
 }

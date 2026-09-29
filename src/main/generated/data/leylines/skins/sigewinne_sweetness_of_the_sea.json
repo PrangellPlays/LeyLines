@@ -10,6 +10,6 @@
   "id": "leylines:sigewinne_sweetness_of_the_sea",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/sigewinne/skins/sigewinne_sweetness_of_the_sea.png"
+    "texture": "leylines:textures/character/sigewinne/skins/sigewinne_sweetness_of_the_sea.png"
   }
 }

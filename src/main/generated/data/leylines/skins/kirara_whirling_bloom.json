@@ -10,6 +10,6 @@
   "id": "leylines:kirara_whirling_bloom",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/kirara/skins/kirara_whirling_bloom.png"
+    "texture": "leylines:textures/character/kirara/skins/kirara_whirling_bloom.png"
   }
 }

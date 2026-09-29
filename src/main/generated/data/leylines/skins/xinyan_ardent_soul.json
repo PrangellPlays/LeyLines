@@ -10,6 +10,6 @@
   "id": "leylines:xinyan_ardent_soul",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/xinyan/skins/xinyan_ardent_soul.png"
+    "texture": "leylines:textures/character/xinyan/skins/xinyan_ardent_soul.png"
   }
 }

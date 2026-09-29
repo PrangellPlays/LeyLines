@@ -10,6 +10,6 @@
   "id": "leylines:kinich_eight_bit_artistry",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/kinich/skins/kinich_eight_bit_artistry.png"
+    "texture": "leylines:textures/character/kinich/skins/kinich_eight_bit_artistry.png"
   }
 }

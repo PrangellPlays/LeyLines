@@ -1884,7 +1884,7 @@ public class LeylinesCharacterSkinProvider implements DataProvider {
     }
 
     private Identifier vanillaTexture(Identifier character, Identifier id) {
-        return Identifier.of("textures/character/" + character.getPath() + "/skins/" + id.getPath() + ".png");
+        return LeyLines.id("textures/character/" + character.getPath() + "/skins/" + id.getPath() + ".png");
     }
 
     @Override public String getName() {

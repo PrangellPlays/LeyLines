@@ -10,6 +10,6 @@
   "id": "leylines:thoma_warrior_of_flame",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/thoma/skins/thoma_warrior_of_flame.png"
+    "texture": "leylines:textures/character/thoma/skins/thoma_warrior_of_flame.png"
   }
 }

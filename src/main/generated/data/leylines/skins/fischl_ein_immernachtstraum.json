@@ -10,6 +10,6 @@
   "id": "leylines:fischl_ein_immernachtstraum",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/fischl/skins/fischl_ein_immernachtstraum.png"
+    "texture": "leylines:textures/character/fischl/skins/fischl_ein_immernachtstraum.png"
   }
 }

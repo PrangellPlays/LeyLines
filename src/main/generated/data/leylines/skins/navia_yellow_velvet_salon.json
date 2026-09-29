@@ -10,6 +10,6 @@
   "id": "leylines:navia_yellow_velvet_salon",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/navia/skins/navia_yellow_velvet_salon.png"
+    "texture": "leylines:textures/character/navia/skins/navia_yellow_velvet_salon.png"
   }
 }

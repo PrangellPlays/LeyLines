@@ -10,6 +10,6 @@
   "id": "leylines:lohen_frost_forged_edge",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/lohen/skins/lohen_frost_forged_edge.png"
+    "texture": "leylines:textures/character/lohen/skins/lohen_frost_forged_edge.png"
   }
 }

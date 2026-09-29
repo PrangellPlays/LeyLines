@@ -10,6 +10,6 @@
   "id": "leylines:lyney_fantasticat",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/lyney/skins/lyney_fantasticat.png"
+    "texture": "leylines:textures/character/lyney/skins/lyney_fantasticat.png"
   }
 }

@@ -10,6 +10,6 @@
   "id": "leylines:hu_tao_cherries_snow_laden",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/hu_tao/skins/hu_tao_cherries_snow_laden.png"
+    "texture": "leylines:textures/character/hu_tao/skins/hu_tao_cherries_snow_laden.png"
   }
 }

@@ -10,6 +10,6 @@
   "id": "leylines:noelle_armored_rose",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/noelle/skins/noelle_armored_rose.png"
+    "texture": "leylines:textures/character/noelle/skins/noelle_armored_rose.png"
   }
 }

@@ -10,6 +10,6 @@
   "id": "leylines:gorou_panoply_of_a_hundred_hunts",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/gorou/skins/gorou_panoply_of_a_hundred_hunts.png"
+    "texture": "leylines:textures/character/gorou/skins/gorou_panoply_of_a_hundred_hunts.png"
   }
 }

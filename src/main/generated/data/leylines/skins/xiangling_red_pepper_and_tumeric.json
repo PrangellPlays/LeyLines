@@ -10,6 +10,6 @@
   "id": "leylines:xiangling_red_pepper_and_tumeric",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/xiangling/skins/xiangling_red_pepper_and_tumeric.png"
+    "texture": "leylines:textures/character/xiangling/skins/xiangling_red_pepper_and_tumeric.png"
   }
 }

@@ -10,6 +10,6 @@
   "id": "leylines:cyno_heart_of_the_scales",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/cyno/skins/cyno_heart_of_the_scales.png"
+    "texture": "leylines:textures/character/cyno/skins/cyno_heart_of_the_scales.png"
   }
 }

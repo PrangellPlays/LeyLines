@@ -10,6 +10,6 @@
   "id": "leylines:barbara_innocent_longing",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/barbara/skins/barbara_innocent_longing.png"
+    "texture": "leylines:textures/character/barbara/skins/barbara_innocent_longing.png"
   }
 }

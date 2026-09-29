@@ -10,6 +10,6 @@
   "id": "leylines:baizhu_the_applications_of_medicine",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/baizhu/skins/baizhu_the_applications_of_medicine.png"
+    "texture": "leylines:textures/character/baizhu/skins/baizhu_the_applications_of_medicine.png"
   }
 }

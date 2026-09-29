@@ -10,6 +10,6 @@
   "id": "leylines:collei_a_new_leaf",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/collei/skins/collei_a_new_leaf.png"
+    "texture": "leylines:textures/character/collei/skins/collei_a_new_leaf.png"
   }
 }

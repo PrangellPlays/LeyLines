@@ -10,6 +10,6 @@
   "id": "leylines:razor_wild_sprint",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/razor/skins/razor_wild_sprint.png"
+    "texture": "leylines:textures/character/razor/skins/razor_wild_sprint.png"
   }
 }

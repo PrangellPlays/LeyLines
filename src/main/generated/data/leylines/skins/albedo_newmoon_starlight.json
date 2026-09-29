@@ -10,6 +10,6 @@
   "id": "leylines:albedo_newmoon_starlight",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/albedo/skins/albedo_newmoon_starlight.png"
+    "texture": "leylines:textures/character/albedo/skins/albedo_newmoon_starlight.png"
   }
 }

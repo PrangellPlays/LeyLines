@@ -10,6 +10,6 @@
   "id": "leylines:ganyu_twilight_blossom",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/ganyu/skins/ganyu_twilight_blossom.png"
+    "texture": "leylines:textures/character/ganyu/skins/ganyu_twilight_blossom.png"
   }
 }

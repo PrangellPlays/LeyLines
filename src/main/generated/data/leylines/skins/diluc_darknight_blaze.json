@@ -10,6 +10,6 @@
   "id": "leylines:diluc_darknight_blaze",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/diluc/skins/diluc_darknight_blaze.png"
+    "texture": "leylines:textures/character/diluc/skins/diluc_darknight_blaze.png"
   }
 }

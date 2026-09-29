@@ -10,6 +10,6 @@
   "id": "leylines:kamisato_ayato_silk_splendor",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/kamisato_ayato/skins/kamisato_ayato_silk_splendor.png"
+    "texture": "leylines:textures/character/kamisato_ayato/skins/kamisato_ayato_silk_splendor.png"
   }
 }

@@ -10,6 +10,6 @@
   "id": "leylines:xilonen_gold_draped_gorge",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/xilonen/skins/xilonen_gold_draped_gorge.png"
+    "texture": "leylines:textures/character/xilonen/skins/xilonen_gold_draped_gorge.png"
   }
 }

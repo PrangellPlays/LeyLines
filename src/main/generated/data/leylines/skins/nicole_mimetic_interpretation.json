@@ -10,6 +10,6 @@
   "id": "leylines:nicole_mimetic_interpretation",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/nicole/skins/nicole_mimetic_interpretation.png"
+    "texture": "leylines:textures/character/nicole/skins/nicole_mimetic_interpretation.png"
   }
 }

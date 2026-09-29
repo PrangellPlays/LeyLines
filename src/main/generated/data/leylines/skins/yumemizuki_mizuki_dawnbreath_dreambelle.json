@@ -10,6 +10,6 @@
   "id": "leylines:yumemizuki_mizuki_dawnbreath_dreambelle",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/yumemizuki_mizuki/skins/yumemizuki_mizuki_dawnbreath_dreambelle.png"
+    "texture": "leylines:textures/character/yumemizuki_mizuki/skins/yumemizuki_mizuki_dawnbreath_dreambelle.png"
   }
 }

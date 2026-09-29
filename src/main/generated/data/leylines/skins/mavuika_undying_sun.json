@@ -10,6 +10,6 @@
   "id": "leylines:mavuika_undying_sun",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/mavuika/skins/mavuika_undying_sun.png"
+    "texture": "leylines:textures/character/mavuika/skins/mavuika_undying_sun.png"
   }
 }

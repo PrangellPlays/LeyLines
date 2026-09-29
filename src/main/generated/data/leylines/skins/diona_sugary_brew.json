@@ -10,6 +10,6 @@
   "id": "leylines:diona_sugary_brew",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/diona/skins/diona_sugary_brew.png"
+    "texture": "leylines:textures/character/diona/skins/diona_sugary_brew.png"
   }
 }

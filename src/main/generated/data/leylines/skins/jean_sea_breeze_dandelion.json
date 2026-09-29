@@ -10,6 +10,6 @@
   "id": "leylines:jean_sea_breeze_dandelion",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/jean/skins/jean_sea_breeze_dandelion.png"
+    "texture": "leylines:textures/character/jean/skins/jean_sea_breeze_dandelion.png"
   }
 }

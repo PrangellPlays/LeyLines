@@ -10,6 +10,6 @@
   "id": "leylines:odette_snow_swans_dance",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/odette/skins/odette_snow_swans_dance.png"
+    "texture": "leylines:textures/character/odette/skins/odette_snow_swans_dance.png"
   }
 }

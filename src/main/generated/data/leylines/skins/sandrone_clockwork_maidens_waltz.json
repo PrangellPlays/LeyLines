@@ -10,6 +10,6 @@
   "id": "leylines:sandrone_clockwork_maidens_waltz",
   "vanilla": {
     "model": "slim",
-    "texture": "minecraft:textures/character/sandrone/skins/sandrone_clockwork_maidens_waltz.png"
+    "texture": "leylines:textures/character/sandrone/skins/sandrone_clockwork_maidens_waltz.png"
   }
 }
