@@ -26,6 +26,7 @@ public class PartyHudOverlay implements HudRenderCallback {
         Identifier[] members = party.getParty();
         int active = party.getActiveSlot();
 
+        if (client.options.hudHidden) return;
         int x = 10;
         int y = 10;
         for (int i = 0; i < 4; i++) {

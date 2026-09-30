@@ -38,6 +38,7 @@
 	"mixins": [
 		"leylines.mixins.json"
 	],
+	"accessWidener": "leylines.accesswidener",
 	"depends": {
 		"fabricloader": ">=0.19.2",
 		"minecraft": "~1.21.1",

@@ -1,5 +1,6 @@
 package dev.lumi.leylines;
 
+import dev.lumi.leylines.client.LeyLinesCreativeScreen;
 import dev.lumi.leylines.client.hud.PartyHudOverlay;
 import dev.lumi.leylines.client.hud.StaminaHudOverlay;
 import dev.lumi.leylines.index.keybinds.LeyLinesKeybinds;
@@ -30,6 +31,8 @@ public class LeyLinesClient implements ClientModInitializer {
 
         HudRenderCallback.EVENT.register(new PartyHudOverlay());
         HudRenderCallback.EVENT.register(new StaminaHudOverlay());
+
+        LeyLinesCreativeScreen.init();
     }
 
     private static void swap(MinecraftClient client, int slot) {

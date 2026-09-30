@@ -9,6 +9,7 @@
   ],
   "client": [
     "client.AbstractClientPlayerEntityMixin",
+    "client.CreativeInventoryScreenMixin",
     "client.HandledScreenMixin",
     "client.KeyBindingMixin",
     "client.MinecraftClientMixin"

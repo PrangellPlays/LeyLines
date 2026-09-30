@@ -26,6 +26,13 @@ public class LeyLinesLangProvider extends FabricLanguageProvider {
         builder.add("weapon_type.leylines.catalyst", "Catalyst");
         builder.add("weapon_type.leylines.bow", "Bow");
 
+        //Star Count
+        builder.add("stars.leylines.one", "One Star");
+        builder.add("stars.leylines.two", "Two Star");
+        builder.add("stars.leylines.three", "Three Star");
+        builder.add("stars.leylines.four", "Four Star");
+        builder.add("stars.leylines.five", "Five Star");
+
         //Elements
         builder.add("element.leylines.anemo", "Anemo");
         builder.add("element.leylines.geo", "Geo");
