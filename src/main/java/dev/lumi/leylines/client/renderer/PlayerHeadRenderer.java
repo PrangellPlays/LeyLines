@@ -16,7 +16,7 @@ public class PlayerHeadRenderer {
     private PlayerHeadRenderer() {
     }
 
-    public static void render(DrawContext context, Identifier texture, int x, int y, int size, float scaleMultiplier) {
+    public static void render(DrawContext context, Identifier texture, int x, int y, int size, float scaleMultiplier,int light) {
         MinecraftClient client = MinecraftClient.getInstance();
         Map<SkullBlock.SkullType, SkullBlockEntityModel> models = SkullBlockEntityRenderer.getModels(client.getEntityModelLoader());
         SkullBlockEntityModel model = models.get(SkullBlock.Type.PLAYER);
@@ -35,7 +35,7 @@ public class PlayerHeadRenderer {
 
         float yaw = 225.0F;
         RenderLayer layer = RenderLayer.getEntityCutoutNoCull(texture);
-        SkullBlockEntityRenderer.renderSkull(null, yaw, 0.0F, matrices, consumers, 15728880, model, layer);
+        SkullBlockEntityRenderer.renderSkull(null, yaw, 0.0F, matrices, consumers, light, model, layer);
         consumers.draw();
         matrices.pop();
     }

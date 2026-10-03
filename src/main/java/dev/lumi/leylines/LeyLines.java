@@ -32,14 +32,17 @@ public class LeyLines implements ModInitializer {
 				PartySwapPayload.PAYLOAD_ID, (payload, context) -> {
 					int slot = payload.slot();
 
-					System.out.println("SWAP RECEIVED: " + slot);
 					context.server().execute(() -> {
 						var player = context.player();
 						PlayerPartyComponent party = LeyLinesComponents.PARTY.get(player);
-						party.setActiveSlot(slot);
 
-						PlayerCharacterComponent character = LeyLinesComponents.CHARACTER.get(player);
-						character.setActiveCharacter(party.getActiveCharacter());
+						if (party.canSwitchCharacter()) {
+							System.out.println("SWAP RECEIVED: " + slot);
+							party.setActiveSlot(slot);
+
+							PlayerCharacterComponent character = LeyLinesComponents.CHARACTER.get(player);
+							character.setActiveCharacter(party.getActiveCharacter());
+						}
 					});
 				}
 		);

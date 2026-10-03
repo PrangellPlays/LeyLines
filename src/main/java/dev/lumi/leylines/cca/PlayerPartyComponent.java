@@ -9,13 +9,17 @@ import net.minecraft.nbt.NbtList;
 import net.minecraft.nbt.NbtString;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.util.Identifier;
-import org.ladysnake.cca.api.v3.component.Component;
 import org.ladysnake.cca.api.v3.component.sync.AutoSyncedComponent;
+import org.ladysnake.cca.api.v3.component.tick.CommonTickingComponent;
 
-public class PlayerPartyComponent implements Component, AutoSyncedComponent {
+public class PlayerPartyComponent implements CommonTickingComponent, AutoSyncedComponent {
     private final PlayerEntity player;
     private final Identifier[] party = new Identifier[4];
     private int activeSlot = 0;
+
+    private static final int MAX_SWITCH_COOLDOWN_TICKS = 20;
+    private int switchCooldownTicks = 0;
+    private boolean isCooldown;
 
     public PlayerPartyComponent(PlayerEntity player) {
         this.player = player;
@@ -23,6 +27,12 @@ public class PlayerPartyComponent implements Component, AutoSyncedComponent {
         for (int i = 0; i < 4; i++) {
             party[i] = LeyLines.id("none");
         }
+    }
+
+    @Override
+    public void tick() {
+        if (switchCooldownTicks > 0) --this.switchCooldownTicks;
+        if (switchCooldownTicks == 0) this.isCooldown = false;
     }
 
     public Identifier getActiveCharacter() {
@@ -37,10 +47,15 @@ public class PlayerPartyComponent implements Component, AutoSyncedComponent {
     }
 
     public void setActiveSlot(int slot) {
-        if (slot >= 0 && slot < 4) {
-            this.activeSlot = slot;
-            LeyLinesComponents.PARTY.sync(player);
-        }
+        if (slot < 0 || slot >= 4) return;
+        if (this.activeSlot == slot) return;
+        if (this.switchCooldownTicks > 0) return;
+        if (party[slot].equals(LeyLines.id("none"))) return;
+
+        this.activeSlot = slot;
+        this.switchCooldownTicks = MAX_SWITCH_COOLDOWN_TICKS;
+        this.isCooldown = true;
+        LeyLinesComponents.PARTY.sync(player);
     }
 
     public int getActiveSlot() {
@@ -49,6 +64,22 @@ public class PlayerPartyComponent implements Component, AutoSyncedComponent {
 
     public Identifier[] getParty() {
         return party;
+    }
+
+    public boolean canSwitchCharacter() {
+        return !this.isCooldown;
+    }
+
+    public int getSwitchCooldown() {
+        return this.switchCooldownTicks;
+    }
+
+    public float getSwitchCooldownSeconds() {
+        return this.switchCooldownTicks / 20.0f;
+    }
+
+    public static int getCharacterSwitchCooldown() {
+        return MAX_SWITCH_COOLDOWN_TICKS;
     }
 
     @Override
@@ -67,6 +98,9 @@ public class PlayerPartyComponent implements Component, AutoSyncedComponent {
         if (activeSlot < 0 || activeSlot > 3) {
             activeSlot = 0;
         }
+
+        switchCooldownTicks = nbtCompound.getInt("SwitchCooldownTicks");
+        isCooldown = nbtCompound.getBoolean("IsCooldown");
     }
 
     @Override
@@ -78,5 +112,8 @@ public class PlayerPartyComponent implements Component, AutoSyncedComponent {
         }
 
         nbtCompound.put("Party", partyList);
+
+        nbtCompound.putInt("SwitchCooldownTicks", switchCooldownTicks);
+        nbtCompound.putBoolean("IsCooldown", isCooldown);
     }
 }
