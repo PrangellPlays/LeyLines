@@ -47,14 +47,16 @@ public class PartyHudOverlay implements HudRenderCallback {
                     PlayerHeadRenderer.render(context, skin.vanilla().texture(), x - 16, y + 2, 32, 10F, 15728880);
                 }
             } else {
-                PlayerHeadRenderer.render(context, skin.vanilla().texture(), x - 16, y + 2, 32, 10F, 2621480);
+                if (party.getActiveCharacter() != def.id()) {
+                    PlayerHeadRenderer.render(context, skin.vanilla().texture(), x - 16, y + 2, 32, 10F, 2621480);
 
-                context.getMatrices().push();
-                context.getMatrices().translate(0, 0, 200);
+                    context.getMatrices().push();
+                    context.getMatrices().translate(0, 0, 200);
 
-                String cooldownText = String.format("%.1f", party.getSwitchCooldownSeconds());
-                context.drawText(client.textRenderer, cooldownText, x + 12, y + 20, 0xFFFFFFFF, true);
-                context.getMatrices().pop();
+                    String cooldownText = String.format("%.1f", party.getSwitchCooldownSeconds());
+                    context.drawText(client.textRenderer, cooldownText, x + 12, y + 20, 0xFFFFFFFF, true);
+                    context.getMatrices().pop();
+                }
             }
 
             context.drawText(client.textRenderer, def.displayName(), x + 4, y + 4, 0xFFFFFF, true);

@@ -19,5 +19,5 @@ Owner: Anthracycline (Planet Minecraft, as of 18/09/2026)
 Link: https://www.planetminecraft.com/skin/lumine-genshin-impact-night-hunt-in-snow/
 
 aether_night_hunt_in_snow.png:
-Owner: ??? (???, ???)
+Owner: ??? (???, as of ???)
 Link: ???

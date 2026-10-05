@@ -123,7 +123,9 @@ public class LeylinesCharacterCommand {
                                                     }
 
                                                     PlayerPartyComponent party = LeyLinesComponents.PARTY.get(player);
+                                                    PlayerCharacterComponent character = LeyLinesComponents.CHARACTER.get(player);
                                                     party.setSlot(slot, id);
+                                                    if (!character.ownsCharacter(id)) character.unlockCharacter(id);
                                                     //ctx.getSource().sendFeedback(() -> TextOptions.withColor("Ley Lines §> Set slot " + slot + " to " + id, 0xFFFFFF, TextOptions.color(Formatting.GRAY)), false);
                                                     LeyLinesComponents.PARTY.sync(player);
                                                     ctx.getSource().sendFeedback(() -> TextOptions.appendColored(TextOptions.withColor("Ley Lines §> Set slot " + slot + " to '", 0xFFFFFF, TextOptions.color(Formatting.GRAY)), def.displayName(), TextOptions.color(Formatting.AQUA)).append(TextOptions.withColor("'", TextOptions.color(Formatting.GRAY))), false);

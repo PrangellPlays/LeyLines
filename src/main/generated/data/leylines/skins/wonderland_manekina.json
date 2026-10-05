@@ -10,6 +10,6 @@
   "id": "leylines:wonderland_manekina",
   "vanilla": {
     "model": "slim",
-    "texture": "leylines:textures/character/wonderland_manekin/skins/wonderland_manekin_female.png"
+    "texture": "leylines:textures/character/wonderland_manekin/skins/manekina/manekina.png"
   }
 }

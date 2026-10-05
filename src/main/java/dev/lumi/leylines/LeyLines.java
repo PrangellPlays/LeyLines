@@ -37,7 +37,7 @@ public class LeyLines implements ModInitializer {
 						PlayerPartyComponent party = LeyLinesComponents.PARTY.get(player);
 
 						if (party.canSwitchCharacter()) {
-							System.out.println("SWAP RECEIVED: " + slot);
+//							System.out.println("SWAP RECEIVED: " + slot);
 							party.setActiveSlot(slot);
 
 							PlayerCharacterComponent character = LeyLinesComponents.CHARACTER.get(player);

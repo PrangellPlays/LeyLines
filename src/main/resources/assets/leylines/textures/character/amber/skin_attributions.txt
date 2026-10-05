@@ -1,3 +1,7 @@
 amber_5_star_outrider.png:
 Owner: xXDancingWillowXx (Skindex, as of 16/05/2026)
 Link: https://www.minecraftskins.com/skin/20793644/--amber--/
+
+amber_100_outrider.png
+Owner: iFoxen (Planet Minecraft, as of 04/10/2026)
+Link: https://www.planetminecraft.com/skin/amber-100-outrider/
