@@ -1,12 +1,9 @@
 package dev.lumi.leylines.datagen;
 
-import dev.lumi.leylines.LeyLinesClient;
-import dev.lumi.leylines.index.LeyLinesItemGroups;
 import dev.lumi.leylines.index.LeyLinesItems;
 import dev.lumi.leylines.index.keybinds.LeyLinesKeybinds;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
-import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryWrapper;
 import org.jetbrains.annotations.NotNull;
 
@@ -54,6 +51,475 @@ public class LeyLinesLangProvider extends FabricLanguageProvider {
         builder.add("region.leylines.snezhnaya", "Snezhnaya");
         builder.add("region.leylines.khaenriah", "Khaenri'ah");
         builder.add("region.leylines.none", "None");
+
+        //Sub Region - Mondstadt
+        builder.add("sub_region.leylines.mondstadt.brightcrown_mountains", "Brightcrown Mountains");
+        builder.add("sub_region.leylines.mondstadt.brightcrown_mountains.brightcrown_canyon", "Brightcrown Canyon");
+        builder.add("sub_region.leylines.mondstadt.brightcrown_mountains.stormterrors_lair", "Stormterror's Lair");
+
+        builder.add("sub_region.leylines.mondstadt.galesong_hill", "Galesong Hill");
+        builder.add("sub_region.leylines.mondstadt.galesong_hill.cape_oath", "Cape Oath");
+        builder.add("sub_region.leylines.mondstadt.galesong_hill.dadaupa_gorge", "Dadaupa Gorge");
+        builder.add("sub_region.leylines.mondstadt.galesong_hill.falcon_coast", "Falcon Coast");
+        builder.add("sub_region.leylines.mondstadt.galesong_hill.musk_reef", "Musk Reef");
+        builder.add("sub_region.leylines.mondstadt.galesong_hill.windrise", "Windrise");
+
+        builder.add("sub_region.leylines.mondstadt.starfell_valley", "Starfell Valley");
+        builder.add("sub_region.leylines.mondstadt.starfell_valley.cider_lake", "Cider Lake");
+        builder.add("sub_region.leylines.mondstadt.starfell_valley.mondstadt", "Mondstadt");
+        builder.add("sub_region.leylines.mondstadt.starfell_valley.starfell_lake", "Starfell Lake");
+        builder.add("sub_region.leylines.mondstadt.starfell_valley.starsnatch_cliff", "Starsnatch Cliff");
+        builder.add("sub_region.leylines.mondstadt.starfell_valley.stormbearer_mountains", "Stormbearer Mountains");
+        builder.add("sub_region.leylines.mondstadt.starfell_valley.stormbearer_point", "Stormbearer Point");
+        builder.add("sub_region.leylines.mondstadt.starfell_valley.thousand_winds_temple", "Thousand Winds Temple");
+        builder.add("sub_region.leylines.mondstadt.starfell_valley.whispering_woods", "Whispering Woods");
+
+        builder.add("sub_region.leylines.mondstadt.windwail_highland", "Windwail Highland");
+        builder.add("sub_region.leylines.mondstadt.windwail_highland.dawn_winery", "Dawn Winery");
+        builder.add("sub_region.leylines.mondstadt.windwail_highland.springvale", "Springvale");
+        builder.add("sub_region.leylines.mondstadt.windwail_highland.wolvendom", "Wolvendom");
+
+        builder.add("sub_region.leylines.mondstadt.dragonspine", "Dragonspine");
+        builder.add("sub_region.leylines.mondstadt.dragonspine.entombed_city_ancient_palace", "Entombed City - Ancient Palace");
+        builder.add("sub_region.leylines.mondstadt.dragonspine.entombed_city_outskirts", "Entombed City - Outskirts");
+        builder.add("sub_region.leylines.mondstadt.dragonspine.skyfrost_nail", "Skyfrost Nail");
+        builder.add("sub_region.leylines.mondstadt.dragonspine.snow_covered_path", "Snow-Covered Path");
+        builder.add("sub_region.leylines.mondstadt.dragonspine.starglow_cavern", "Starglow Cavern");
+        builder.add("sub_region.leylines.mondstadt.dragonspine.wyrmrest_valley", "Wyrmrest Valley");
+
+        builder.add("sub_region.leylines.mondstadt.windrest_peak", "Windrest Peak");
+        builder.add("sub_region.leylines.mondstadt.windrest_peak.dornman_port", "Dornman Port");
+        builder.add("sub_region.leylines.mondstadt.windrest_peak.millhaven", "Millhaven");
+        builder.add("sub_region.leylines.mondstadt.windrest_peak.old_sanatorium_site", "Old Sanatorium Site");
+
+        //Sub Region - Liyue
+        builder.add("sub_region.leylines.liyue.bishui_plain", "Bishui Plain");
+        builder.add("sub_region.leylines.liyue.bishui_plain.dihua_marsh", "Dihua Marsh");
+        builder.add("sub_region.leylines.liyue.bishui_plain.qingce_village", "Qingce Village");
+        builder.add("sub_region.leylines.liyue.bishui_plain.sal_terrae", "Sal Terrae");
+        builder.add("sub_region.leylines.liyue.bishui_plain.stone_gate", "Stone Gate");
+        builder.add("sub_region.leylines.liyue.bishui_plain.wangshu_inn", "Wangshu Inn");
+        builder.add("sub_region.leylines.liyue.bishui_plain.wuwang_hill", "Wuwang Hill");
+
+        builder.add("sub_region.leylines.liyue.lisha", "Lisha");
+        builder.add("sub_region.leylines.liyue.lisha.dunyu_ruins", "Dunyu Ruins");
+        builder.add("sub_region.leylines.liyue.lisha.lingju_pass", "Lingju Pass");
+        builder.add("sub_region.leylines.liyue.lisha.qingxu_pool", "Qingxu Pool");
+
+        builder.add("sub_region.leylines.liyue.minlin", "Minlin");
+        builder.add("sub_region.leylines.liyue.minlin.cuijue_slope", "Cuijue Slope");
+        builder.add("sub_region.leylines.liyue.minlin.huaguang_stone_forest", "Huaguang Stone Forest");
+        builder.add("sub_region.leylines.liyue.minlin.jueyun_karst", "Jueyun Karst");
+        builder.add("sub_region.leylines.liyue.minlin.mt_aocang", "Mt. Aocang");
+        builder.add("sub_region.leylines.liyue.minlin.mt_hulao", "Mt. Hulao");
+        builder.add("sub_region.leylines.liyue.minlin.nantianmen", "Nantianmen");
+        builder.add("sub_region.leylines.liyue.minlin.qingyun_peak", "Qingyun Peak");
+        builder.add("sub_region.leylines.liyue.minlin.tianqiu_valley", "Tianqiu Valley");
+
+        builder.add("sub_region.leylines.liyue.qiongji_estuary", "Qiongji Estuary");
+        builder.add("sub_region.leylines.liyue.qiongji_estuary.guili_plains", "Guili Plains");
+        builder.add("sub_region.leylines.liyue.qiongji_estuary.luhua_pool", "Luhua Pool");
+        builder.add("sub_region.leylines.liyue.qiongji_estuary.mingyun_village", "Mingyun Village");
+        builder.add("sub_region.leylines.liyue.qiongji_estuary.yaoguang_shoal", "Yaoguang Shoal");
+
+        builder.add("sub_region.leylines.liyue.sea_of_clouds", "Sea of Clouds");
+        builder.add("sub_region.leylines.liyue.sea_of_clouds.guyun_stone_forest", "Guyun Stone Forest");
+        builder.add("sub_region.leylines.liyue.sea_of_clouds.liyue_harbor", "Liyue Harbor");
+        builder.add("sub_region.leylines.liyue.sea_of_clouds.mt_tianheng", "Mt. Tianheng");
+
+        builder.add("sub_region.leylines.liyue.the_chasm", "The Chasm");
+        builder.add("sub_region.leylines.liyue.the_chasm.the_chasm", "The Chasm");
+        builder.add("sub_region.leylines.liyue.the_chasm.the_chasm.cinnabar_cliff", "Cinnabar Cliff");
+        builder.add("sub_region.leylines.liyue.the_chasm.the_chasm.fuao_vale", "Fuao Vale");
+        builder.add("sub_region.leylines.liyue.the_chasm.the_chasm.glaze_peak", "Glaze Peak");
+        builder.add("sub_region.leylines.liyue.the_chasm.the_chasm.lumberpick_valley", "Lumberpick Valley");
+        builder.add("sub_region.leylines.liyue.the_chasm.the_chasm.the_chasms_maw", "The Chasm's Maw");
+        builder.add("sub_region.leylines.liyue.the_chasm.the_chasm.the_surface", "The Surface");
+        builder.add("sub_region.leylines.liyue.the_chasm.the_chasm.tiangong_gorge", "Tiangong Gorge");
+
+        builder.add("sub_region.leylines.liyue.the_chasm.the_chasm_underground_mines", "The Chasm: Underground Mines");
+        builder.add("sub_region.leylines.liyue.the_chasm.the_chasm_underground_mines.ad_hoc_main_tunnel", "Ad-Hoc Main Tunnel");
+        builder.add("sub_region.leylines.liyue.the_chasm.the_chasm_underground_mines.nameless_ruins", "Nameless Ruins");
+        builder.add("sub_region.leylines.liyue.the_chasm.the_chasm_underground_mines.stony_halls", "Stony Halls");
+        builder.add("sub_region.leylines.liyue.the_chasm.the_chasm_underground_mines.the_chasm_main_mining_area", "The Chasm: Main Mining Area");
+        builder.add("sub_region.leylines.liyue.the_chasm.the_chasm_underground_mines.the_glowing_narrows", "The Glowing Narrows");
+        builder.add("sub_region.leylines.liyue.the_chasm.the_chasm_underground_mines.the_serpents_cave", "The Serpent's Cave");
+        builder.add("sub_region.leylines.liyue.the_chasm.the_chasm_underground_mines.underground_waterway", "Underground Waterway");
+
+        builder.add("sub_region.leylines.liyue.chenyu_vale", "Chenyu Vale");
+        builder.add("sub_region.leylines.liyue.chenyu_vale.chenyu_vale_southern_mountain", "Chenyu Vale: Southern Mountain");
+        builder.add("sub_region.leylines.liyue.chenyu_vale.chenyu_vale_southern_mountain.adeptuss_repose", "Adeptus's Repose");
+        builder.add("sub_region.leylines.liyue.chenyu_vale.chenyu_vale_southern_mountain.chizhang_wall", "Chizhang Wall");
+        builder.add("sub_region.leylines.liyue.chenyu_vale.chenyu_vale_southern_mountain.lingshu_courtyard", "Lingshu Courtyard");
+        builder.add("sub_region.leylines.liyue.chenyu_vale.chenyu_vale_southern_mountain.mt_xuanlian", "Mt. Xuanlian");
+        builder.add("sub_region.leylines.liyue.chenyu_vale.chenyu_vale_southern_mountain.teatree_slope", "Teatree Slope");
+        builder.add("sub_region.leylines.liyue.chenyu_vale.chenyu_vale_southern_mountain.yaodie_valley", "Yaodie Valley");
+
+        builder.add("sub_region.leylines.liyue.chenyu_vale.chenyu_vale_upper_vale", "Chenyu Vale: Upper Vale");
+        builder.add("sub_region.leylines.liyue.chenyu_vale.chenyu_vale_upper_vale.chenlong_cleft", "Chenlong Cleft");
+        builder.add("sub_region.leylines.liyue.chenyu_vale.chenyu_vale_upper_vale.jademouth", "Jademouth");
+        builder.add("sub_region.leylines.liyue.chenyu_vale.chenyu_vale_upper_vale.mt_lingmeng", "Mt. Lingmeng");
+        builder.add("sub_region.leylines.liyue.chenyu_vale.chenyu_vale_upper_vale.mt_mingyuan", "Mt. Mingyuan");
+        builder.add("sub_region.leylines.liyue.chenyu_vale.chenyu_vale_upper_vale.qiaoying_village", "Qiaoying Village");
+        builder.add("sub_region.leylines.liyue.chenyu_vale.chenyu_vale_upper_vale.yilong_wharf", "Yilong Wharf");
+
+        builder.add("sub_region.leylines.liyue.chenyu_vale.mt_laixin", "Mt. Laixin");
+        builder.add("sub_region.leylines.liyue.chenyu_vale.mt_laixin.carps_rest", "Carp's Rest");
+        builder.add("sub_region.leylines.liyue.chenyu_vale.mt_laixin.chiwang_terrace", "Chiwang Terrace");
+
+        //Sub Region - Inazuma
+        builder.add("sub_region.leylines.inazuma.kannazuka", "Kannazuka");
+        builder.add("sub_region.leylines.inazuma.kannazuka.kujou_encampment", "Kujou Encampment");
+        builder.add("sub_region.leylines.inazuma.kannazuka.tatarasuna", "Tatarasuna");
+
+        builder.add("sub_region.leylines.inazuma.narukami_island", "Narukami Island");
+        builder.add("sub_region.leylines.inazuma.narukami_island.amakane_island", "Amakane Island");
+        builder.add("sub_region.leylines.inazuma.narukami_island.araumi", "Araumi");
+        builder.add("sub_region.leylines.inazuma.narukami_island.byakko_plain", "Byakko Plain");
+        builder.add("sub_region.leylines.inazuma.narukami_island.chinju_forest", "Chinju Forest");
+        builder.add("sub_region.leylines.inazuma.narukami_island.grand_narukami_shrine", "Grand Narukami Shrine");
+        builder.add("sub_region.leylines.inazuma.narukami_island.inazuma_city", "Inazuma City");
+        builder.add("sub_region.leylines.inazuma.narukami_island.jinren_island", "Jinren Island");
+        builder.add("sub_region.leylines.inazuma.narukami_island.kamisato_estate", "Kamisato Estate");
+        builder.add("sub_region.leylines.inazuma.narukami_island.konda_village", "Konda Village");
+        builder.add("sub_region.leylines.inazuma.narukami_island.mt_yougou", "Mt. Yougou");
+        builder.add("sub_region.leylines.inazuma.narukami_island.ritou", "Ritou");
+
+        builder.add("sub_region.leylines.inazuma.yashiori_island", "Yashiori Island");
+        builder.add("sub_region.leylines.inazuma.yashiori_island.fort_fujitou", "Fort Fujitou");
+        builder.add("sub_region.leylines.inazuma.yashiori_island.fort_mumei", "Fort Mumei");
+        builder.add("sub_region.leylines.inazuma.yashiori_island.higi_village", "Higi Village");
+        builder.add("sub_region.leylines.inazuma.yashiori_island.jakotsu_mine", "Jakotsu Mine");
+        builder.add("sub_region.leylines.inazuma.yashiori_island.musoujin_gorge", "Musoujin Gorge");
+        builder.add("sub_region.leylines.inazuma.yashiori_island.nazuchi_beach", "Nazuchi Beach");
+        builder.add("sub_region.leylines.inazuma.yashiori_island.serpents_head", "Serpent's Head");
+
+        builder.add("sub_region.leylines.inazuma.seirai_island", "Seirai Island");
+        builder.add("sub_region.leylines.inazuma.seirai_island.seiraimaru", "\"Seiraimaru\"");
+        builder.add("sub_region.leylines.inazuma.seirai_island.amakumo_peak", "Amakumo Peak");
+        builder.add("sub_region.leylines.inazuma.seirai_island.asase_shrine", "Asase Shrine");
+        builder.add("sub_region.leylines.inazuma.seirai_island.fort_hiraumi", "Fort Hiraumi");
+        builder.add("sub_region.leylines.inazuma.seirai_island.koseki_village", "Koseki Village");
+
+        builder.add("sub_region.leylines.inazuma.watatsumi_island", "Watatsumi Island");
+        builder.add("sub_region.leylines.inazuma.watatsumi_island.bourou_village", "Bourou Village");
+        builder.add("sub_region.leylines.inazuma.watatsumi_island.mouun_shrine", "Mouun Shrine");
+        builder.add("sub_region.leylines.inazuma.watatsumi_island.sangonomiya_shrine", "Sangonomiya Shrine");
+        builder.add("sub_region.leylines.inazuma.watatsumi_island.suigetsu_pool", "Suigetsu Pool");
+
+        builder.add("sub_region.leylines.inazuma.tsurumi_island", "Tsurumi Island");
+        builder.add("sub_region.leylines.inazuma.tsurumi_island.autake_plains", "Autake Plains");
+        builder.add("sub_region.leylines.inazuma.tsurumi_island.chirai_shrine", "Chirai Shrine");
+        builder.add("sub_region.leylines.inazuma.tsurumi_island.moshiri_ceremonial_site", "Moshiri Ceremonial Site");
+        builder.add("sub_region.leylines.inazuma.tsurumi_island.mt_kanna", "Mt. Kanna");
+        builder.add("sub_region.leylines.inazuma.tsurumi_island.oina_beach", "Oina Beach");
+        builder.add("sub_region.leylines.inazuma.tsurumi_island.shirikoro_peak", "Shirikoro Peak");
+        builder.add("sub_region.leylines.inazuma.tsurumi_island.wakukau_shoal", "Wakukau Shoal");
+
+        builder.add("sub_region.leylines.inazuma.enkanomiya", "Enkanomiya");
+        builder.add("sub_region.leylines.inazuma.enkanomiya.dainichi_mikoshi", "Dainichi Mikoshi");
+        builder.add("sub_region.leylines.inazuma.enkanomiya.evernight_temple", "Evernight Temple");
+        builder.add("sub_region.leylines.inazuma.enkanomiya.kunados_locus", "Kunado's Locus");
+        builder.add("sub_region.leylines.inazuma.enkanomiya.the_narrows", "The Narrows");
+        builder.add("sub_region.leylines.inazuma.enkanomiya.the_serpents_bowels", "The Serpent's Bowels");
+        builder.add("sub_region.leylines.inazuma.enkanomiya.the_serpents_heart", "The Serpent's Heart");
+        builder.add("sub_region.leylines.inazuma.enkanomiya.yachimatahikos_locus", "Yachimatahiko's Locus");
+        builder.add("sub_region.leylines.inazuma.enkanomiya.yachimatahimes_locus", "Yachimatahime's Locus");
+
+        //Sub Region - Sumeru
+        builder.add("sub_region.leylines.sumeru.dharma_forest", "Dharma Forest");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.ardravi_valley", "Ardravi Valley");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.ardravi_valley.devantaka_mountain", "Devantaka Mountain");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.ardravi_valley.port_ormos", "Port Ormos");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.ardravi_valley.vimara_village", "Vimara Village");
+
+        builder.add("sub_region.leylines.sumeru.dharma_forest.ashavan_realm", "Ashavan Realm");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.ashavan_realm.apam_woods", "Apam Woods");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.ashavan_realm.caravan_ribat", "Caravan Ribat");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.ashavan_realm.pardis_dhyai", "Pardis Dhyai");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.ashavan_realm.ruins_of_dahri", "Ruins of Dahri");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.ashavan_realm.yasna_monument", "Yasna Monument");
+
+        builder.add("sub_region.leylines.sumeru.dharma_forest.avidya_forest", "Avidya Forest");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.avidya_forest.chinvat_ravine", "Chinvat Ravine");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.avidya_forest.gandha_hill", "Gandha Hill");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.avidya_forest.gandharva_ville", "Gandharva Ville");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.avidya_forest.sumeru_city", "Sumeru City");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.avidya_forest.yazadaha_pool", "Yazadaha Pool");
+
+        builder.add("sub_region.leylines.sumeru.dharma_forest.lokapala_jungle", "Lokapala Jungle");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.lokapala_jungle.bayda_harbor", "Bayda Harbor");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.lokapala_jungle.chatrakam_cave", "Chatrakam Cave");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.lokapala_jungle.mawtiyima_forest", "Mawtiyima Forest");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.lokapala_jungle.the_palace_of_alcazarzaray", "The Palace of Alcazarzaray");
+
+        builder.add("sub_region.leylines.sumeru.dharma_forest.lost_nursery", "Lost Nursery");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.lost_nursery.old_vanarana", "Old Vanarana");
+
+        builder.add("sub_region.leylines.sumeru.dharma_forest.vanarana", "Vanarana");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.vanarana.vanarana", "Vanarana");
+
+        builder.add("sub_region.leylines.sumeru.dharma_forest.vissudha_field", "Vissudha Field");
+        builder.add("sub_region.leylines.sumeru.dharma_forest.vissudha_field.fane_of_ashvattha", "Fane of Ashvattha");
+
+        builder.add("sub_region.leylines.sumeru.great_red_sand", "Great Red Sand");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.hypostyle_desert", "Hypostyle Desert");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.hypostyle_desert.khemenu_temple", "Khemenu Temple");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.hypostyle_desert.sobek_oasis", "Sobek Oasis");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.hypostyle_desert.the_dune_of_carouses", "The Dune of Carouses");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.hypostyle_desert.the_dune_of_elusion", "The Dune of Elusion");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.hypostyle_desert.the_dune_of_magma", "The Dune of Magma");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.hypostyle_desert.the_mausoleum_of_king_deshret", "The Mausoleum of King Deshret");
+
+        builder.add("sub_region.leylines.sumeru.great_red_sand.land_of_lower_setekh", "Land of Lower Setekh");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.land_of_lower_setekh.aaru_village", "Aaru Village");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.land_of_lower_setekh.abdju_pit", "Abdju Pit");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.land_of_lower_setekh.dar_al_shifa", "Dar al-Shifa");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.land_of_lower_setekh.khaj_nisut", "Khaj-Nisut");
+
+        builder.add("sub_region.leylines.sumeru.great_red_sand.land_of_upper_setekh", "Land of Upper Setekh");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.land_of_upper_setekh.valley_of_dahri", "Valley of Dahri");
+
+        builder.add("sub_region.leylines.sumeru.great_red_sand.desert_of_hadramaveth", "Desert of Hadramaveth");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.desert_of_hadramaveth.debris_of_panjvahe", "Debris of Panjvahe");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.desert_of_hadramaveth.dunes_of_steel", "Dunes of Steel");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.desert_of_hadramaveth.mt_damavand", "Mt. Damavand");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.desert_of_hadramaveth.passage_of_ghouls", "Passage of Ghouls");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.desert_of_hadramaveth.qusayr_al_inkhida", "Qusayr Al-Inkhida'");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.desert_of_hadramaveth.safhe_shatranj", "Safhe Shatranj");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.desert_of_hadramaveth.tanit_camps", "Tanit Camps");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.desert_of_hadramaveth.the_sands_of_al_azif", "The Sands of Al-Azif");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.desert_of_hadramaveth.the_sands_of_three_canals", "The Sands of Three Canals");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.desert_of_hadramaveth.wadi_al_majuj", "Wadi Al-Majuj");
+        builder.add("sub_region.leylines.sumeru.great_red_sand.desert_of_hadramaveth.wounded_shin_valley", "Wounded Shin Valley");
+
+        builder.add("sub_region.leylines.sumeru.girdle_of_the_sands", "Girdle of the Sands");
+        builder.add("sub_region.leylines.sumeru.girdle_of_the_sands.gavireh_lajavard", "Gavireh Lajavard");
+        builder.add("sub_region.leylines.sumeru.girdle_of_the_sands.gavireh_lajavard.gate_of_zulqarnain", "Gate of Zulqarnain");
+        builder.add("sub_region.leylines.sumeru.girdle_of_the_sands.gavireh_lajavard.temir_mountains", "Temir Mountains");
+        builder.add("sub_region.leylines.sumeru.girdle_of_the_sands.gavireh_lajavard.tunigi_hollow", "Tunigi Hollow");
+
+        builder.add("sub_region.leylines.sumeru.girdle_of_the_sands.realm_of_farakhkert", "Realm of Farakhkert");
+        builder.add("sub_region.leylines.sumeru.girdle_of_the_sands.realm_of_farakhkert.asipattravana_swamp", "Asipattravana Swamp");
+        builder.add("sub_region.leylines.sumeru.girdle_of_the_sands.realm_of_farakhkert.hills_of_barsom", "Hills of Barsom");
+        builder.add("sub_region.leylines.sumeru.girdle_of_the_sands.realm_of_farakhkert.samudra_coast", "Samudra Coast");
+        builder.add("sub_region.leylines.sumeru.girdle_of_the_sands.realm_of_farakhkert.vourukasha_oasis", "Vourukasha Oasis");
+
+        //Sub Region - Fontaine
+        builder.add("sub_region.leylines.fontaine.belleau_region", "Belleau Region");
+        builder.add("sub_region.leylines.fontaine.belleau_region.poisson", "Poisson");
+        builder.add("sub_region.leylines.fontaine.belleau_region.romaritime_harbor", "Romaritime Harbor");
+        builder.add("sub_region.leylines.fontaine.belleau_region.west_slopes_of_mont_automnequi", "West Slopes of Mont Automnequi");
+
+        builder.add("sub_region.leylines.fontaine.beryl_region", "Beryl Region");
+        builder.add("sub_region.leylines.fontaine.beryl_region.a_lonely_place", "\"A Lonely Place\"");
+        builder.add("sub_region.leylines.fontaine.beryl_region.a_very_bright_place", "\"A Very Bright Place\"");
+        builder.add("sub_region.leylines.fontaine.beryl_region.a_very_warm_place", "\"A Very Warm Place\"");
+        builder.add("sub_region.leylines.fontaine.beryl_region.elton_trench", "Elton Trench");
+        builder.add("sub_region.leylines.fontaine.beryl_region.elynas", "Elynas");
+        builder.add("sub_region.leylines.fontaine.beryl_region.merusea_village", "Merusea Village");
+
+        builder.add("sub_region.leylines.fontaine.court_of_fontaine_region", "Court of Fontaine Region");
+        builder.add("sub_region.leylines.fontaine.court_of_fontaine_region.annapausis", "Annapausis");
+        builder.add("sub_region.leylines.fontaine.court_of_fontaine_region.chemin_de_lespoir", "Chemin de L'Espoir");
+        builder.add("sub_region.leylines.fontaine.court_of_fontaine_region.court_of_fontaine", "Court of Fontaine");
+        builder.add("sub_region.leylines.fontaine.court_of_fontaine_region.fountain_of_lucine", "Fountain of Lucine");
+        builder.add("sub_region.leylines.fontaine.court_of_fontaine_region.institute_of_natural_philosophy", "Institute of Natural Philosophy");
+        builder.add("sub_region.leylines.fontaine.court_of_fontaine_region.marcotte_station", "Marcotte Station");
+        builder.add("sub_region.leylines.fontaine.court_of_fontaine_region.opera_epiclese", "Opera Epiclese");
+        builder.add("sub_region.leylines.fontaine.court_of_fontaine_region.salacia_plain", "Salacia Plain");
+        builder.add("sub_region.leylines.fontaine.court_of_fontaine_region.thalatta_submarine_canyon", "Thalatta Submarine Canyon");
+
+        builder.add("sub_region.leylines.fontaine.fontaine_research_institute_of_kinetic_energy_engineering_region", "Fontaine Research Institute of Kinetic Energy Engineering Region");
+        builder.add("sub_region.leylines.fontaine.fontaine_research_institute_of_kinetic_energy_engineering_region.central_laboratory_ruins", "Central Laboratory Ruins");
+        builder.add("sub_region.leylines.fontaine.fontaine_research_institute_of_kinetic_energy_engineering_region.new_fontaine_research_institute", "New Fontaine Research Institute");
+
+        builder.add("sub_region.leylines.fontaine.liffey_region", "Liffey Region");
+        builder.add("sub_region.leylines.fontaine.liffey_region.fortress_of_meropide", "Fortress of Meropide");
+        builder.add("sub_region.leylines.fontaine.liffey_region.mont_esus_east", "Mont Esus East");
+
+        builder.add("sub_region.leylines.fontaine.erinnyes_forest", "Erinnyes Forest");
+        builder.add("sub_region.leylines.fontaine.erinnyes_forest.foggy_forest_path", "Foggy Forest Path");
+        builder.add("sub_region.leylines.fontaine.erinnyes_forest.loch_urania", "Loch Urania");
+        builder.add("sub_region.leylines.fontaine.erinnyes_forest.lumidouce_harbor", "Lumidouce Harbor");
+        builder.add("sub_region.leylines.fontaine.erinnyes_forest.weeping_willow_of_the_lake", "Weeping Willow of the Lake");
+
+        builder.add("sub_region.leylines.fontaine.morte_region", "Morte Region");
+        builder.add("sub_region.leylines.fontaine.morte_region.east_slopes_of_mont_automnequi", "East Slopes of Mont Automnequi");
+        builder.add("sub_region.leylines.fontaine.morte_region.fort_charybdis_ruins", "Fort Charybdis Ruins");
+        builder.add("sub_region.leylines.fontaine.morte_region.tower_of_ipsissimus", "Tower of Ipsissimus");
+
+        builder.add("sub_region.leylines.fontaine.nostoi_region", "Nostoi Region");
+        builder.add("sub_region.leylines.fontaine.nostoi_region.faded_castle", "Faded Castle");
+        builder.add("sub_region.leylines.fontaine.nostoi_region.petrichor", "Petrichor");
+
+        builder.add("sub_region.leylines.fontaine.sea_of_bygone_eras", "Sea of Bygone Eras");
+        builder.add("sub_region.leylines.fontaine.sea_of_bygone_eras.alta_semita", "Alta Semita");
+        builder.add("sub_region.leylines.fontaine.sea_of_bygone_eras.caesareum_palace", "Caesareum Palace");
+        builder.add("sub_region.leylines.fontaine.sea_of_bygone_eras.clivus_capitolinus", "Clivus Capitolinus");
+        builder.add("sub_region.leylines.fontaine.sea_of_bygone_eras.collegium_phonascorum", "Collegium Phonascorum");
+        builder.add("sub_region.leylines.fontaine.sea_of_bygone_eras.hortus_euergetis", "Hortus Euergetis");
+        builder.add("sub_region.leylines.fontaine.sea_of_bygone_eras.initium_iani", "Initium Iani");
+        builder.add("sub_region.leylines.fontaine.sea_of_bygone_eras.portus_anticus", "Portus Anticus");
+
+        //Sub Region - Natlan
+        builder.add("sub_region.leylines.natlan.basin_of_unnumbered_flames", "Basin of Unnumbered Flames");
+        builder.add("sub_region.leylines.natlan.basin_of_unnumbered_flames.huitztli_hill", "Huitztli Hill");
+        builder.add("sub_region.leylines.natlan.basin_of_unnumbered_flames.stadium_of_the_sacred_flame", "Stadium of the Sacred Flame");
+
+        builder.add("sub_region.leylines.natlan.coatepec_mountain", "Coatepec Mountain");
+        builder.add("sub_region.leylines.natlan.coatepec_mountain.scions_of_the_canopy", "\"Scions of the Canopy\"");
+        builder.add("sub_region.leylines.natlan.coatepec_mountain.ancestral_temple", "Ancestral Temple");
+        builder.add("sub_region.leylines.natlan.coatepec_mountain.firethiefs_secret_isle", "Firethief's Secret Isle");
+        builder.add("sub_region.leylines.natlan.coatepec_mountain.teticpac_peak", "Teticpac Peak");
+
+        builder.add("sub_region.leylines.natlan.tequemecan_valley", "Tequemecan Valley");
+        builder.add("sub_region.leylines.natlan.tequemecan_valley.children_of_echoes", "\"Children of Echoes\"");
+        builder.add("sub_region.leylines.natlan.tequemecan_valley.sulfurous_veins", "Sulfurous Veins");
+        builder.add("sub_region.leylines.natlan.tequemecan_valley.tepeacac_rise", "Tepeacac Rise");
+
+        builder.add("sub_region.leylines.natlan.toyac_springs", "Toyac Springs");
+        builder.add("sub_region.leylines.natlan.toyac_springs.people_of_the_springs", "\"People of the Springs\"");
+        builder.add("sub_region.leylines.natlan.toyac_springs.ameyalco_waters", "Ameyalco Waters");
+
+        builder.add("sub_region.leylines.natlan.ochkanatlan", "Ochkanatlan");
+        builder.add("sub_region.leylines.natlan.ochkanatlan.legendary_tonatiuh", "Legendary Tonatiuh");
+
+        builder.add("sub_region.leylines.natlan.quahuacan_cliff", "Quahuacan Cliff");
+        builder.add("sub_region.leylines.natlan.quahuacan_cliff.flower_feather_clan", "\"Flower-Feather Clan\"");
+        builder.add("sub_region.leylines.natlan.quahuacan_cliff.malinalco_grotto", "Malinalco Grotto");
+
+        builder.add("sub_region.leylines.natlan.tezcatepetonco_range", "Tezcatepetonco Range");
+        builder.add("sub_region.leylines.natlan.tezcatepetonco_range.masters_of_the_night_wind", "\"Masters of the Night-Wind\"");
+        builder.add("sub_region.leylines.natlan.tezcatepetonco_range.tecoloapan_bay", "Tecoloapan Bay");
+
+        builder.add("sub_region.leylines.natlan.atocpan", "Atocpan");
+        builder.add("sub_region.leylines.natlan.atocpan.collective_of_plenty", "\"Collective of Plenty\"");
+        builder.add("sub_region.leylines.natlan.atocpan.ancient_mountain_path", "Ancient Mountain Path");
+        builder.add("sub_region.leylines.natlan.atocpan.fallingstart_fields", "Fallingstar Fields");
+        builder.add("sub_region.leylines.natlan.atocpan.remnants_of_tetenanco", "Remnants of Tetenanco");
+        builder.add("sub_region.leylines.natlan.atocpan.skyfire_circlet", "Skyfire Circlet");
+
+        builder.add("sub_region.leylines.natlan.ancient_sacred_mountain", "Ancient Sacred Mountain");
+        builder.add("sub_region.leylines.natlan.ancient_sacred_mountain.chamber_of_deliberation", "Chamber of Deliberation");
+        builder.add("sub_region.leylines.natlan.ancient_sacred_mountain.esoteric_arrays", "Esoteric Arrays");
+        builder.add("sub_region.leylines.natlan.ancient_sacred_mountain.flame_melding_ritual_grounds", "Flame-Melding Ritual Grounds");
+        builder.add("sub_region.leylines.natlan.ancient_sacred_mountain.heart_of_force_inversion", "Heart of Force Inversion");
+        builder.add("sub_region.leylines.natlan.ancient_sacred_mountain.pseudostar_pedestal", "Pseudostar Pedestal");
+        builder.add("sub_region.leylines.natlan.ancient_sacred_mountain.ruined_armament_workshop", "Ruined Armament Workshop");
+        builder.add("sub_region.leylines.natlan.ancient_sacred_mountain.sea_of_shifting_sentience", "Sea of Shifting Sentience");
+        builder.add("sub_region.leylines.natlan.ancient_sacred_mountain.summoning_hall", "Summoning Hall");
+
+        builder.add("sub_region.leylines.natlan.easybreeze_holiday_resort", "Easybreeze Holiday Resort");
+        builder.add("sub_region.leylines.natlan.easybreeze_holiday_resort.brewblossom_stores", "Brewblossom Stores");
+        builder.add("sub_region.leylines.natlan.easybreeze_holiday_resort.castle_joquiratto", "Castle Joquiratto");
+        builder.add("sub_region.leylines.natlan.easybreeze_holiday_resort.colorfall_cave", "Colorfall Cave");
+        builder.add("sub_region.leylines.natlan.easybreeze_holiday_resort.colorfall_cliffs", "Colorfall Cliffs");
+        builder.add("sub_region.leylines.natlan.easybreeze_holiday_resort.concealed_land_of_enigmas", "Concealed Land of Enigmas");
+        builder.add("sub_region.leylines.natlan.easybreeze_holiday_resort.easybreeze_market", "Easybreeze Market");
+        builder.add("sub_region.leylines.natlan.easybreeze_holiday_resort.guiztli_path", "Guiztli Path");
+        builder.add("sub_region.leylines.natlan.easybreeze_holiday_resort.guiztli_ridge", "Guiztli Ridge");
+        builder.add("sub_region.leylines.natlan.easybreeze_holiday_resort.huha_hill", "Huha Hill");
+        builder.add("sub_region.leylines.natlan.easybreeze_holiday_resort.tete_isle", "Tete Isle");
+        builder.add("sub_region.leylines.natlan.easybreeze_holiday_resort.villa_guiztli", "Villa Guiztli");
+        builder.add("sub_region.leylines.natlan.easybreeze_holiday_resort.wavey_bay", "Wavey Bay");
+
+        builder.add("sub_region.leylines.natlan.night_kingdom", "Night Kingdom");
+
+        //Sub Region - Nod-Krai
+        builder.add("sub_region.leylines.nod_krai.hiisi_island", "Hiisi Island");
+        builder.add("sub_region.leylines.nod_krai.hiisi_island.frostmoon_enclave", "Frostmoon Enclave");
+        builder.add("sub_region.leylines.nod_krai.hiisi_island.light_bathed_Platform", "Light-Bathed Platform");
+        builder.add("sub_region.leylines.nod_krai.hiisi_island.silvermoon_hall", "Silvermoon Hall");
+
+        builder.add("sub_region.leylines.nod_krai.lempo_isle", "Lempo Isle");
+        builder.add("sub_region.leylines.nod_krai.lempo_isle.barrowmoss_barrens", "Barrowmoss Barrens");
+        builder.add("sub_region.leylines.nod_krai.lempo_isle.blue_amber_lake", "Blue Amber Lake");
+        builder.add("sub_region.leylines.nod_krai.lempo_isle.clink_clank_krumkake_craftshop", "Clink-Clank Krumkake Craftshop");
+        builder.add("sub_region.leylines.nod_krai.lempo_isle.eye_of_kratti", "Eye of Kratti");
+        builder.add("sub_region.leylines.nod_krai.lempo_isle.nasha_town", "Nasha Town");
+        builder.add("sub_region.leylines.nod_krai.lempo_isle.nothing_passage", "Nothing Passage");
+        builder.add("sub_region.leylines.nod_krai.lempo_isle.starsand_shoal", "Starsand Shoal");
+
+        builder.add("sub_region.leylines.nod_krai.paha_isle", "Paha Isle");
+        builder.add("sub_region.leylines.nod_krai.paha_isle.final_night_cemetery", "Final Night Cemetery");
+        builder.add("sub_region.leylines.nod_krai.paha_isle.kuuvahki_experimental_design_bureau", "Kuuvahki Experimental Design Bureau");
+
+        builder.add("sub_region.leylines.nod_krai.ashveil_peak", "Ashveil Peak");
+        builder.add("sub_region.leylines.nod_krai.ashveil_peak.cliffwatch_camp", "Cliffwatch Camp");
+        builder.add("sub_region.leylines.nod_krai.ashveil_peak.kipumaki_cliff", "Kipumaki Cliff");
+        builder.add("sub_region.leylines.nod_krai.ashveil_peak.special_territory_research_institute", "Special Territory Research Institute");
+
+        builder.add("sub_region.leylines.nod_krai.voidsea_outlook", "Voidsea Outlook");
+        builder.add("sub_region.leylines.nod_krai.voidsea_outlook.dreadshade_mire", "Dreadshade Mire");
+        builder.add("sub_region.leylines.nod_krai.voidsea_outlook.piramida", "Piramida");
+
+        builder.add("sub_region.leylines.nod_krai.wavechaser_plain", "Wavechaser Plain");
+        builder.add("sub_region.leylines.nod_krai.wavechaser_plain.amsvartnir", "Amsvartnir");
+        builder.add("sub_region.leylines.nod_krai.wavechaser_plain.favonius_keep", "Favonius Keep");
+        builder.add("sub_region.leylines.nod_krai.wavechaser_plain.pillar_of_embla", "Pillar of Embla");
+        builder.add("sub_region.leylines.nod_krai.wavechaser_plain.wing_of_keres", "Wing of Keres");
+
+        builder.add("sub_region.leylines.nod_krai.dunanna_pit", "Dunanna Pit");
+        builder.add("sub_region.leylines.nod_krai.dunanna_pit.dunanna_forward_station", "Dunanna Forward Station");
+        builder.add("sub_region.leylines.nod_krai.dunanna_pit.misty_shoal", "Misty Shoal");
+
+        builder.add("sub_region.leylines.nod_krai.frost_moon", "Frost Moon");
+        builder.add("sub_region.leylines.nod_krai.frost_moon.dark_side_of_the_moon", "Dark Side of the Moon");
+        builder.add("sub_region.leylines.nod_krai.frost_moon.dark_side_of_the_moon.dark_side_of_the_moon", "Dark Side of the Moon");
+
+        builder.add("sub_region.leylines.nod_krai.frost_moon.lunar_highlands", "Lunar Highlands");
+        builder.add("sub_region.leylines.nod_krai.frost_moon.lunar_highlands.archaeolune_storm_research_center", "Archaeolune Storm Research Center");
+        builder.add("sub_region.leylines.nod_krai.frost_moon.lunar_highlands.bubble_pool", "Bubble Pool");
+        builder.add("sub_region.leylines.nod_krai.frost_moon.lunar_highlands.golden_hall", "Golden Hall");
+        builder.add("sub_region.leylines.nod_krai.frost_moon.lunar_highlands.nuur_stone_circle", "Nuur Stone Circle");
+        builder.add("sub_region.leylines.nod_krai.frost_moon.lunar_highlands.the_eye_of_ibni_belum", "The Eye of Ibni-Belum");
+        builder.add("sub_region.leylines.nod_krai.frost_moon.lunar_highlands.travelers_crater", "Traveler's Crater");
+        builder.add("sub_region.leylines.nod_krai.frost_moon.lunar_highlands.ungiens_circle", "Ungien's Circle");
+
+        builder.add("sub_region.leylines.nod_krai.frost_moon.moontide_sea", "Moontide Sea");
+        builder.add("sub_region.leylines.nod_krai.frost_moon.moontide_sea.curtain_form_blackbody_containment_lab", "Curtain-Form Blackbody Containment Lab");
+        builder.add("sub_region.leylines.nod_krai.frost_moon.moontide_sea.moontide_sea", "Moontide Sea");
+
+        //Sub Region - Snezhnaya
+        builder.add("sub_region.leylines.snezhnaya.everfrozen_earth", "Everfrozen Earth");
+        builder.add("sub_region.leylines.snezhnaya.everfrozen_earth.central_station", "Central Station");
+        builder.add("sub_region.leylines.snezhnaya.everfrozen_earth.druzhna_hq", "Druzhna HQ");
+        builder.add("sub_region.leylines.snezhnaya.everfrozen_earth.glupov", "Glupov");
+        builder.add("sub_region.leylines.snezhnaya.everfrozen_earth.morepesok", "Morepesok");
+        builder.add("sub_region.leylines.snezhnaya.everfrozen_earth.sanctuary_of_grief", "Sanctuary of Grief");
+        builder.add("sub_region.leylines.snezhnaya.everfrozen_earth.snezhnograd", "Snezhnograd");
+        builder.add("sub_region.leylines.snezhnaya.everfrozen_earth.svetloledovka", "Svetloledovka");
+        builder.add("sub_region.leylines.snezhnaya.everfrozen_earth.the_korolevskiy_theater", "The Korolevskiy Theater");
+        builder.add("sub_region.leylines.snezhnaya.everfrozen_earth.zapolyarny_palace", "Zapolyarny Palace");
+
+        builder.add("sub_region.leylines.snezhnaya.fellfrost_peak", "Fellfrost Peak");
+        builder.add("sub_region.leylines.snezhnaya.fellfrost_peak.house_of_hesperides", "House of Hesperides");
+        builder.add("sub_region.leylines.snezhnaya.fellfrost_peak.jack_frost_village", "Jack Frost Village");
+        builder.add("sub_region.leylines.snezhnaya.fellfrost_peak.tidesong_cavern", "Tidesong Cavern");
+
+        builder.add("sub_region.leylines.snezhnaya.flamefeather_valley", "Flamefeather Valley");
+        builder.add("sub_region.leylines.snezhnaya.flamefeather_valley.okurov", "Okurov");
+        builder.add("sub_region.leylines.snezhnaya.flamefeather_valley.teeming_mire", "Teeming Mire");
+
+        builder.add("sub_region.leylines.snezhnaya.volkodlak_tundra", "Volkodlak Tundra");
+        builder.add("sub_region.leylines.snezhnaya.volkodlak_tundra.huntsmans_cabin", "Huntsman's Cabin");
+        builder.add("sub_region.leylines.snezhnaya.volkodlak_tundra.rankova_zorya", "Rankova Zorya");
+        builder.add("sub_region.leylines.snezhnaya.volkodlak_tundra.sretomorozsk", "Sretomorozsk");
+
+        builder.add("sub_region.leylines.snezhnaya.white_birch_snowgrave", "White Birch Snowgrave");
+        builder.add("sub_region.leylines.snezhnaya.white_birch_snowgrave.pale_crown_palace", "Pale Crown Palace");
+        builder.add("sub_region.leylines.snezhnaya.white_birch_snowgrave.pilgrimage_to_the_sacred_gorge", "Pilgrimage to the Sacred Gorge");
+
+        //Sub Region - Temple of Space
+        builder.add("sub_region.leylines.temple_of_space", "Temple of Space");
+        builder.add("sub_region.leylines.temple_of_space.apathic_interval", "Apathic Interval");
+        builder.add("sub_region.leylines.temple_of_space.cage_of_suchness", "Cage of Suchness");
+        builder.add("sub_region.leylines.temple_of_space.desert_pavilion", "Desert Pavilion");
+        builder.add("sub_region.leylines.temple_of_space.luyang_academy", "Luyang Academy");
+        builder.add("sub_region.leylines.temple_of_space.mahavaipulya_chamber", "Mahavaipulya Chamber");
+        builder.add("sub_region.leylines.temple_of_space.path_of_the_forgotten_world", "Path of the Forgotten World");
+        builder.add("sub_region.leylines.temple_of_space.pillar_hall_central_zone", "Pillar Hall Central Zone");
 
         //Model Type
         builder.add("model_type.leylines.tall_male", "Tall Male");
